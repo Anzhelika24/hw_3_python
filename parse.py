@@ -8,7 +8,8 @@ links = soup.find_all('a', attrs={'href': True})
 
 result = []
 for link in links:
-    result.append(link.attrs['href'])
+    result.append(f"{link.text}: {link.attrs['href']}")
+
 text_new = '\n'.join(result)
-print(result)
+print(result, '\n')
 print(text_new)
