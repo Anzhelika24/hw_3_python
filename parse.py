@@ -4,7 +4,7 @@ with open ("wiki.html", "r", encoding="utf_8") as file:
 
 soup = BeautifulSoup(text, 'html.parser')
 
-links = soup.find_all('a', attrs={'href': True})
+links = soup.find_all('a', href=lambda href: href and href.startswith('#') == False)
 
 result = []
 for link in links:
