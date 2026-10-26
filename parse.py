@@ -4,11 +4,11 @@ with open ("wiki.html", "r", encoding="utf_8") as file:
 
 soup = BeautifulSoup(text, 'html.parser')
 
-titles = soup.find_all('title')
-# print(titles)
+links = soup.find_all('a', attrs={'href': True})
+
 result = []
-for title in titles:
-    result.append(title.text)
-text_new = '/n'.join(result)
+for link in links:
+    result.append(link.attrs['href'])
+text_new = '\n'.join(result)
 print(result)
 print(text_new)
