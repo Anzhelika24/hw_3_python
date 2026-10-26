@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="ru" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Программирование на языке C++. Основной поток 2026 — Public ATP Wiki</title>
+<script>(function(){var className="client-js";var cookie=document.cookie.match(/(?:^|; )pi_wiki_wikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","январь","февраль","март","апрель","май","июнь","июль","август","сентябрь","октябрь","ноябрь","декабрь"],"wgRequestId":"0c5f8b88bb0f1b977bea3daa","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Программирование_на_языке_C++._Основной_поток_2026","wgTitle":"Программирование на языке C++. Основной поток 2026","wgCurRevisionId":5062,"wgRevisionId":5062,"wgArticleId":424,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageViewLanguage":"ru","wgPageContentLanguage":"ru","wgPageContentModel":"wikitext","wgRelevantPageName":"Программирование_на_языке_C++._Основной_поток_2026","wgRelevantArticleId":424,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgCiteReferencePreviewsActive":true};
+RLSTATE={"site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","skins.vector.styles.legacy":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=ru&amp;modules=skins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=ru&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.43.3">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1120">
+<link rel="search" type="application/opensearchdescription+xml" href="/rest.php/v1/search" title="Public ATP Wiki (ru)">
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.atp-fivt.org/api.php?action=rsd">
+<link rel="alternate" type="application/atom+xml" title="Public ATP Wiki — Atom-лента" href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D0%B5%D0%B6%D0%B8%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8&amp;feed=atom">
+</head>
+<body class="skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Программирование_на_языке_C_Основной_поток_2026 rootpage-Программирование_на_языке_C_Основной_поток_2026 skin-vector action-view"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Программирование на языке C++. Основной поток 2026</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">Материал из Public ATP Wiki</div>
+		<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Перейти к навигации</a>
+		<a class="mw-jump-link" href="#searchInput">Перейти к поиску</a>
+		<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="ru" dir="ltr"><div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="ru" dir="ltr"><h2 id="mw-toc-heading">Содержание</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#О_курсе"><span class="tocnumber">1</span> <span class="toctext">О курсе</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Команда_курса"><span class="tocnumber">2</span> <span class="toctext">Команда курса</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Программа_курса"><span class="tocnumber">3</span> <span class="toctext">Программа курса</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Коммуникация"><span class="tocnumber">4</span> <span class="toctext">Коммуникация</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Прогресс_студентов"><span class="tocnumber">5</span> <span class="toctext">Прогресс студентов</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Критерии_оценивания_и_формы_контроля_успеваемости"><span class="tocnumber">6</span> <span class="toctext">Критерии оценивания и формы контроля успеваемости</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Материалы_курса"><span class="tocnumber">7</span> <span class="toctext">Материалы курса</span></a></li>
+</ul>
+</div>
+
+<h2><span id=".D0.9E_.D0.BA.D1.83.D1.80.D1.81.D0.B5"></span><span class="mw-headline" id="О_курсе">О курсе</span></h2>
+<p><b>Первый (осенний) семестр</b> предназначен для начинающих разработчиков на C++.
+</p><p><b>Второй (весенний) семестр</b> даёт углублённое понимание тонкостей языка и раскрывает особенности возможностей новых стандартов. Подойдёт как для тех, у кого C++ является первым опытом программирования, так и для тех, кто переходит на C++ с других языков.
+</p><p>Важной особенностью курса является то, что упор делается на большое количество практики, код-ревью и устные сдачи. Данный подход позволяет выстроить сильный фундамент для дальнейшего профессионального развития как C++-разработчика, так и в любой другой IT-специальности.
+</p>
+<h2><span id=".D0.9A.D0.BE.D0.BC.D0.B0.D0.BD.D0.B4.D0.B0_.D0.BA.D1.83.D1.80.D1.81.D0.B0"></span><span class="mw-headline" id="Команда_курса">Команда курса</span></h2>
+<p><b>Руководитель курса и лектор:</b> Попов Павел Александрович
+</p><p><b>Семинаристы:</b>
+</p>
+<ul><li>Драгун Константин Юрьевич</li>
+<li>Гарбузов Николай Алексеевич</li>
+<li>Русецкий Дмитрий Сергеевич</li>
+<li>Вашкевич Егор Сергеевич</li>
+<li>Лунга Артём Романович</li>
+<li>Погадаев Никита Максимович</li></ul>
+<p><b>Ассистенты:</b>
+</p>
+<ul><li>Информация будет опубликована позднее.</li></ul>
+<h2><span id=".D0.9F.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D0.B0_.D0.BA.D1.83.D1.80.D1.81.D0.B0"></span><span class="mw-headline" id="Программа_курса">Программа курса</span></h2>
+<p><b>Формы контроля:</b>
+</p><p><b>Осенний семестр</b> — дифференцированный зачёт.
+</p><p><b>Весенний семестр</b> — экзамен.
+</p><p><b>Программа курса осеннего семестра</b>
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Неделя
+</th>
+<th>Тема
+</th>
+<th>Задачи
+</th></tr>
+<tr>
+<td>1
+</td>
+<td>Введение. Простейшая программа. Объявления и определения, скоупы.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>Основные типы и операции над ними. Выражения и операторы.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>Control statements. Compile-time errors, runtime errors. Undefined behavior и unspecified behavior.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>Указатели. Виды памяти.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>5
+</td>
+<td>Динамическая память. Массивы. Указатели на функции.
+</td>
+<td>Stack
+</td></tr>
+<tr>
+<td>6
+</td>
+<td>Ссылки. Константы. Константные указатели и ссылки.
+</td>
+<td>Stack
+</td></tr>
+<tr>
+<td>7
+</td>
+<td>Приведения типов. Классы и структуры. Модификаторы доступа.
+</td>
+<td>String
+</td></tr>
+<tr>
+<td>8
+</td>
+<td>Конструкторы и деструкторы. Оператор присваивания. Правило трёх.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>9
+</td>
+<td>Перегрузка операторов. Const-, static-, explicit-методы. Указатели на члены.
+</td>
+<td>BigInteger
+</td></tr>
+<tr>
+<td>10
+</td>
+<td>Наследование и его виды. Видимость и доступность методов при наследовании. Конструкторы и деструкторы при наследовании.
+</td>
+<td>Rational
+</td></tr>
+<tr>
+<td>11
+</td>
+<td>Приведения типов при наследовании. Множественное наследование. Виртуальные функции и полиморфные типы.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>12
+</td>
+<td>Абстрактные классы. Pure virtual функции. RTTI и dynamic_cast. Таблицы виртуальных функций.
+</td>
+<td>Geometry
+</td></tr>
+<tr>
+<td>13
+</td>
+<td>Виртуальные функции (окончание). Шаблоны. Перегрузка и специализация шаблонов.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>14
+</td>
+<td>Вычисления на шаблонах. Метафункции. Зависимые имена.
+</td>
+<td>Matrix
+</td></tr>
+<tr>
+<td>15
+</td>
+<td>Вариативные шаблоны. Исключения. Идиома RAII.
+</td>
+<td>
+</td></tr></tbody></table>
+<p><b>Весенний семестр</b>
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Неделя
+</th>
+<th>Лекции
+</th>
+<th>Задачи
+</th></tr>
+<tr>
+<td>16
+</td>
+<td>Исключения в конструкторах и деструкторах. noexcept. Exception-safety.
+</td>
+<td>Residue
+</td></tr>
+<tr>
+<td>17
+</td>
+<td>Контейнеры. Внутреннее устройство vector и deque.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>18
+</td>
+<td>Устройство deque. Итераторы, виды итераторов, инвалидация итераторов. Внутреннее устройство list.
+</td>
+<td>Deque
+</td></tr>
+<tr>
+<td>19
+</td>
+<td>Внутреннее устройство map. Классы string_view и span. Идея аллокаторов.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>20
+</td>
+<td>Внутреннее устройство unordered_map. Allocator traits. Allocator-aware контейнеры.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>21
+</td>
+<td>Выравнивания. Перегрузка new/delete. Идея move-семантики. Move-конструкторы и move-assignment операторы.
+</td>
+<td>List and StackAllocator
+</td></tr>
+<tr>
+<td>22
+</td>
+<td>Определения lvalue и rvalue. Rvalue-ссылки. Reference qualifiers. Perfect forwarding. Универсальные ссылки. std::forward.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>23
+</td>
+<td>Реализация std::move и std::forward. xvalues, RVO, copy elision, temporary materialization. Функция move_if_noexcept.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>24
+</td>
+<td>Вывод типов auto, decltype. CTAD, template deduction guides. Tuples, structured bindings, tuple-like types.
+</td>
+<td>Unordered Map
+</td></tr>
+<tr>
+<td>25
+</td>
+<td>unique_ptr, shared_ptr, weak_ptr, make_shared, enable_shared_from_this. Type erasure. std::any.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>26
+</td>
+<td>Стирание типов в shared_ptr. Шаблонное метапрограммирование. Идиома SFINAE. Реализация is_class. Метафункция enable_if.
+</td>
+<td>SharedPtr
+</td></tr>
+<tr>
+<td>27
+</td>
+<td>Реализация has_method_construct, is_base_of. Спецификатор и оператор requires. Концепты.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>28
+</td>
+<td>Лямбды. Замыкания. Списки захвата. Захват с инициализацией. Захват this. Обобщённые лямбды.
+</td>
+<td>Tuple
+</td></tr>
+<tr>
+<td>29
+</td>
+<td>Шаблонные лямбды. std::function, std::bind, std::reference_wrapper, std::invoke. Идея реализации std::function.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>30
+</td>
+<td>Constexpr-переменные и функции. Compile-time вычисления.
+</td>
+<td>Function
+</td></tr></tbody></table>
+<p><b>На каждую задачу:</b>
+</p><p>срок сдачи в контест — 3 недели (2 недели без штрафа);
+</p><p>срок прохождения ревью (в том числе устного) — 4 недели с момента релиза задачи и 3 попытки;
+</p>
+<h2><span id=".D0.9A.D0.BE.D0.BC.D0.BC.D1.83.D0.BD.D0.B8.D0.BA.D0.B0.D1.86.D0.B8.D1.8F"></span><span class="mw-headline" id="Коммуникация">Коммуникация</span></h2>
+<p>Ссылка на чат курса в мессенджере (будет опубликована ближе к старту семестра).
+</p>
+<h2><span id=".D0.9F.D1.80.D0.BE.D0.B3.D1.80.D0.B5.D1.81.D1.81_.D1.81.D1.82.D1.83.D0.B4.D0.B5.D0.BD.D1.82.D0.BE.D0.B2"></span><span class="mw-headline" id="Прогресс_студентов">Прогресс студентов</span></h2>
+<p>Ссылка на таблицу студентов с оценками (будет опубликована ближе к старту семестра).
+</p>
+<h2><span id=".D0.9A.D1.80.D0.B8.D1.82.D0.B5.D1.80.D0.B8.D0.B8_.D0.BE.D1.86.D0.B5.D0.BD.D0.B8.D0.B2.D0.B0.D0.BD.D0.B8.D1.8F_.D0.B8_.D1.84.D0.BE.D1.80.D0.BC.D1.8B_.D0.BA.D0.BE.D0.BD.D1.82.D1.80.D0.BE.D0.BB.D1.8F_.D1.83.D1.81.D0.BF.D0.B5.D0.B2.D0.B0.D0.B5.D0.BC.D0.BE.D1.81.D1.82.D0.B8"></span><span class="mw-headline" id="Критерии_оценивания_и_формы_контроля_успеваемости">Критерии оценивания и формы контроля успеваемости</span></h2>
+<p><b>Осенний семестр</b>
+</p><p>Итоговая оценка по задачам вычисляется по формуле:
+</p><p>Итоговая оценка по задачам считается так:
+</p>
+<ul><li>формула: (кол-во баллов по сданным задачам - штрафы за скат) / кол-во баллов за все задачи * 7</li>
+<li>финальная контрольная работа является блокирующей и приносит от 0 до 3 баллов (при баллах ниже порога, который считается после сдачи кр, зачет считается не сданным и переходит в ранг пересдачи)</li>
+<li>Итоговая оценка складывается из максимальных баллов (7 за задачи + 3 за к.р. + 1 от семинариста) и итог округляется вниз.</li></ul>
+<p><br />
+<b>Весенний семестр</b>
+</p><p>1. Баллы за сданные задачи ограничивают оценку таким образом:
+</p>
+<ul><li>учитываются 6 задач с коэффициентом (о нем ниже) + баллы за задачу reze</li>
+<li>нормировка выглядит следующим образом</li></ul>
+<pre>       1) 1 задача -&gt; ее баллы * 1.0
+       2) 2 задачи -&gt; их баллы * 1.1
+       3) 3 задачи -&gt; их баллы * 1.2
+       4) 4 задачи -&gt; их баллы * 1.3
+       5) 5 задачи -&gt; их баллы * 1.4
+       6) 6 задачи -&gt; их баллы * 1.5
+</pre>
+<ul><li>чтобы иметь возможность получить оценку уд. необходимо сдать 1-2 задачи (не учитывая Residue) + сумма баллов всех сданных задач 250-449.</li>
+<li>чтобы иметь возможность получить оценку хор. необходимо сдать 3-4 задачи (не учитывая Residue) + сумма баллов всех сданных задач 450-749.</li>
+<li>чтобы иметь возможность получить оценку отл. необходимо сдать 5-6 задачи (не учитывая Residue) + сумма баллов всех сданных задач 750-1000+.</li>
+<li>финальная сумма баллов переводится в оценку по формуле баллы / 100. Например, 740 баллов переходят в оценку 7, а 755 в оценку 8 по правилу округления.</li></ul>
+<p>2. Сам процесс сдачи экзамена:
+</p>
+<ul><li>при сдаче на уд. - отвечаются 2 билета на уд.</li>
+<li>при сдаче на хор. - отвечаются 2 билета на уд. и 2 билета на хор.</li>
+<li>при сдаче на отл. - отвечаются 2 билета на хор и 2 билета на отл.</li></ul>
+<p>3. Если у вас одна из следующих ситуаций, то есть возможность повысить оценку:
+</p>
+<ul><li>2 (не учитывая Residue) задачи и больше 500 баллов, то можно ответить на оценку хор 5 (для этого необходимо успешно ответить все билеты на оценку уд. и затем 2 дополнительных билета на хор.)</li>
+<li>4 (не учитывая Residue) задачи и больше 800 баллов, то можно ответить на оценку отл 8 (для этого необходимо успешно ответить все билеты на оценку хор. и затем 2 дополнительных билета на отл.)</li></ul>
+<p>4. При успешной сдаче 3+ задач (то есть вы успешно сдали 4-6 задач) в семестре (не учитывая Residue) билеты на уд. отвечать не обязательно.
+</p><p>5. При успешной сдаче 4+ задач (то есть вы успешно сдали 5-6 задач, не учитывая Residue), есть возможность вытянуть 3 билета на хор и 3 билета на отл, но выбрать из каждого множества по 2 для ответа на экзамене.
+</p><p>Крайне рекомендуем досдать все задачи как можно раньше, чтобы идти на экзамен с максимально возможным количеством баллов))))
+</p><p><b>Пример расчёта баллов.</b> 
+Сиксевенов Пабло Ильич решил за семестр Residue на 90 баллов, list на 180, tuple на 200.
+Получаем такую формулу расчёта его баллов: (180 + 200) * 1.1 + 90 = 508. - Ему необходимо ответить 2 билета на уд тк на уд достаточно решено задач и баллов.
+Если все успешно, он может попробовать сдать на хор, тк у него 500+ баллов, для получения оценки хор 5 ему необходимо успешно ответить 2 билета на хор.
+</p>
+<h2><span id=".D0.9C.D0.B0.D1.82.D0.B5.D1.80.D0.B8.D0.B0.D0.BB.D1.8B_.D0.BA.D1.83.D1.80.D1.81.D0.B0"></span><span class="mw-headline" id="Материалы_курса">Материалы курса</span></h2>
+<p>Видеолекции 
+</p>
+<ul><li><a rel="nofollow" class="external text" href="https://vkvideo.ru/playlist/-206078025_142">Видеолекции первого семестра</a></li>
+<li><a rel="nofollow" class="external text" href="https://vkvideo.ru/playlist/-206078025_238/season_undefined">Видеолекции второго семестра</a></li></ul>
+<p><br />
+<a rel="nofollow" class="external text" href="https://drive.google.com/file/d/1CglSQmZ7LX_fHw-w1LQbDJBr7w1y3bcx/view?usp=sharing">программа экзамена</a>
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20261015163542
+Cache expiry: 86400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.009 seconds
+Real time usage: 0.015 seconds
+Preprocessor visited node count: 20/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key pi_wiki-wiki:pcache:idhash:424-0!canonical and timestamp 20261015163542 and revision id 5062. Rendering was triggered because: page-view
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Источник — <a dir="ltr" href="https://wiki.atp-fivt.org/index.php?title=Программирование_на_языке_C%2B%2B._Основной_поток_2026&amp;oldid=5062">https://wiki.atp-fivt.org/index.php?title=Программирование_на_языке_C%2B%2B._Основной_поток_2026&amp;oldid=5062</a></div></div>
+		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Навигация</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="mw-portlet mw-portlet-personal vector-user-menu-legacy vector-menu" aria-labelledby="p-personal-label"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Персональные инструменты</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-login" class="mw-list-item"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D1%85%D0%BE%D0%B4&amp;returnto=%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%BD%D0%B0+%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5+C%2B%2B.+%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9+%D0%BF%D0%BE%D1%82%D0%BE%D0%BA+2026" title="Здесь можно зарегистрироваться в системе, но это необязательно. [o]" accesskey="o"><span>Войти</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy vector-menu" aria-labelledby="p-namespaces-label"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Пространства имён</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected mw-list-item"><a href="/index.php?title=%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5_C%2B%2B._%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA_2026" title="Просмотреть контентную страницу [c]" accesskey="c"><span>Статья</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/index.php?title=%D0%9E%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5:%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5_C%2B%2B._%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA_2026&amp;action=edit&amp;redlink=1" rel="discussion" class="new" title="Обсуждение основной страницы (страница не существует) [t]" accesskey="t"><span>Обсуждение</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown vector-menu" aria-labelledby="p-variants-label"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">русский</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy vector-menu" aria-labelledby="p-views-label"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Просмотры</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/index.php?title=%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5_C%2B%2B._%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA_2026"><span>Читать</span></a></li><li id="ca-viewsource" class="mw-list-item"><a href="/index.php?title=%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5_C%2B%2B._%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA_2026&amp;action=edit" title="Эта страница защищена от изменений.&#10;Вы можете посмотреть её исходный текст. [e]" accesskey="e"><span>Просмотр кода</span></a></li><li id="ca-history" class="mw-list-item"><a href="/index.php?title=%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5_C%2B%2B._%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA_2026&amp;action=history" title="Журнал изменений страницы [h]" accesskey="h"><span>История</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown vector-menu" aria-labelledby="p-cactions-label"  title="Больше возможностей" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Ещё</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<h3 >Поиск</h3>
+	<form action="/index.php" id="searchform" class="vector-search-box-form">
+		<div id="simpleSearch"
+			class="vector-search-box-inner"
+			 data-search-loc="header-navigation">
+			<input class="vector-search-box-input"
+				 type="search" name="search" placeholder="Искать в Public ATP Wiki" aria-label="Искать в Public ATP Wiki" autocapitalize="sentences" title="Искать в Public ATP Wiki [f]" accesskey="f" id="searchInput"
+			>
+			<input type="hidden" name="title" value="Служебная:Поиск">
+			<input id="mw-searchButton"
+				 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Найти страницы, содержащие указанный текст" value="Найти">
+			<input id="searchButton"
+				 class="searchButton" type="submit" name="go" title="Перейти к странице, имеющей в точности такое название" value="Перейти">
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/index.php?title=%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"
+			title="Перейти на заглавную страницу"></a>
+	</div>
+	
+<nav id="p-navigation" class="mw-portlet mw-portlet-navigation vector-menu-portal portal vector-menu" aria-labelledby="p-navigation-label"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Навигация</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/index.php?title=%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Перейти на заглавную страницу [z]" accesskey="z"><span>Заглавная страница</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D0%B5%D0%B6%D0%B8%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8" title="Список последних изменений [r]" accesskey="r"><span>Свежие правки</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Посмотреть случайно выбранную страницу [x]" accesskey="x"><span>Случайная страница</span></a></li><li id="n-help-mediawiki" class="mw-list-item"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents"><span>Справка по MediaWiki</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-tb" class="mw-portlet mw-portlet-tb vector-menu-portal portal vector-menu" aria-labelledby="p-tb-label"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Инструменты</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8_%D1%81%D1%8E%D0%B4%D0%B0/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5_C%2B%2B._%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA_2026" title="Список всех страниц, ссылающихся на данную [j]" accesskey="j"><span>Ссылки сюда</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5_C%2B%2B._%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA_2026" rel="nofollow" title="Последние изменения в страницах, на которые ссылается эта страница [k]" accesskey="k"><span>Связанные правки</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BF%D0%B5%D1%86%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B" title="Список служебных страниц [q]" accesskey="q"><span>Служебные страницы</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Версия этой страницы для печати [p]" accesskey="p"><span>Версия для печати</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/index.php?title=%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5_C%2B%2B._%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA_2026&amp;oldid=5062" title="Постоянная ссылка на эту версию страницы"><span>Постоянная ссылка</span></a></li><li id="t-info" class="mw-list-item"><a href="/index.php?title=%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5_C%2B%2B._%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA_2026&amp;action=info" title="Подробнее об этой странице"><span>Сведения о странице</span></a></li><li id="t-cite" class="mw-list-item"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A6%D0%B8%D1%82%D0%B0%D1%82%D0%B0&amp;page=%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5_C%2B%2B._%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA_2026&amp;id=5062&amp;wpFormIdentifier=titleform" title="Информация о том, как цитировать эту страницу"><span>Цитировать страницу</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> Эта страница в последний раз была отредактирована 14 августа 2026 в 11:38.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="/index.php?title=Public_ATP_Wiki:%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8">Политика конфиденциальности</a></li>
+	<li id="footer-places-about"><a href="/index.php?title=Public_ATP_Wiki:%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5">О Public ATP Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/index.php?title=Public_ATP_Wiki:%D0%9E%D1%82%D0%BA%D0%B0%D0%B7_%D0%BE%D1%82_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8">Отказ от ответственности</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><img src="/resources/assets/poweredby_mediawiki.svg" alt="Powered by MediaWiki" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":94,"wgPageParseReport":{"limitreport":{"cputime":"0.009","walltime":"0.015","ppvisitednodes":{"value":20,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":100},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20261015163542","ttl":86400,"transientcontent":false}}});});</script>
+</body>
+</html>
