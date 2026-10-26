@@ -4,7 +4,10 @@ with open ("wiki.html", "r", encoding="utf_8") as file:
 
 soup = BeautifulSoup(text, 'html.parser')
 
-links = soup.find_all('a', href=lambda href: href and href.startswith('#') == False)
+with open("pretty_wiki_html.html", "w", encoding='utf_8') as f:
+    f.write(soup.prettify())
+
+links = soup.find_all('a', href=lambda href: href and not href.startswith('#'))
 
 result = []
 for link in links:
@@ -14,5 +17,12 @@ text_new = '\n'.join(result)
 
 with open("links.txt", "w", encoding='utf_8') as f:
     f.write(text_new)
+
+headlines = soup.find_all('span', attrs={'class': 'mw-headline'})
+with open('headlines.txt', 'a', encoding='utf_8') as file:
+    for headline in headlines:
+        head_text = headline.text
+        if ('2025' in head_text or '2026' in head_text):
+            file.write(head_text + '\n')
 # print(result, '\n')
 # print(text_new)
