@@ -23,13 +23,13 @@ with open('headlines.txt', 'w', encoding='utf_8') as file:
     for headline in headlines:
         head_text = headline.text
         if ('2025' in head_text or '2026' in head_text):
-            file.write(head_text + '\n')
+            file.write(head_text + '\n\n')
             heading = headline.parent
             for neighbour in heading.find_next_siblings():
                 if neighbour.name == 'h3':
                     break
                 if neighbour.name == 'table':
-                    links = soup.find_all('a', href=lambda href: href and not href.startswith('#'))
+                    links = neighbour.find_all('a', href=lambda href: href and not href.startswith('#'))
                     for link in links:
                         file.write(link.text + '\n')
 
