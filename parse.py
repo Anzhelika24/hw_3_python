@@ -1,9 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+from pathlib import Path
 
-def create_main_html():
-    response = requests.get("https://wiki.atp-fivt.org/", timeout=10)
+def create_main_html(domain):
+    response = requests.get(domain, timeout=10)
     response.raise_for_status()
 
     with open(f"wiki.html", "w", encoding="utf-8") as file:
@@ -11,17 +12,18 @@ def create_main_html():
 
     print("Страница сохранена")
 
-def complete_url(relative_url):
-    base_url = "https://wiki.atp-fivt.org" 
-    full_url = urljoin(base_url, relative_url)
+def complete_url(relative_url, domain):
+    full_url = urljoin(domain, relative_url)
     return full_url
 
 def the_course_is_empty(link):
     if 'class' in link.attrs and 'new' in link.attrs['class']:
         return True 
 
+domain = "https://wiki.atp-fivt.org/"
 
-create_main_html()
+if not Path(domain).is_file:
+    create_main_html(domain)
 
 with open ("wiki.html", "r", encoding="utf_8") as file:
     text = file.read()
@@ -65,7 +67,7 @@ for headline in headlines:
                 for link in links:
                     if not the_course_is_empty(link):
                         relative_url = link.attrs['href']
-                        full_url = complete_url(relative_url)
+                        full_url = complete_url(relative_url, domain)
                         courses[head_text][full_url] = link.text
 
 count = 0
