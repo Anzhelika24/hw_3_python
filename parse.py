@@ -16,7 +16,8 @@ def download_courses_pages(adresses):
     name_dir = 'courses_2025_2026'
     Path('courses_2025_2026').mkdir(exist_ok=True)
     for url, name in adresses.items():
-        download_page(url, f'{name_dir}/{name}')
+        safe_name = name.replace("/", "_")
+        download_page(url, f'{name_dir}/{safe_name}')
 
 def complete_url(relative_url, domain):
     full_url = urljoin(domain, relative_url)
@@ -28,7 +29,7 @@ def the_course_is_empty(link):
 
 domain = "https://wiki.atp-fivt.org/"
 
-if not Path('wiki.html').is_file():
+if not Path('wiki').is_file():
     download_page(domain, filename='wiki.html')
 
 with open ("wiki.html", "r", encoding="utf_8") as file:
