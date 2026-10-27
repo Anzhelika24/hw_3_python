@@ -8,6 +8,10 @@ def complete_url(relative_url):
     full_url = urljoin(base_url, relative_url)
     return full_url
 
+def the_course_is_not_empty(link):
+    if 'class' in link.attrs and link.attrs['class'] != 'new':
+        return True 
+
 soup = BeautifulSoup(text, 'html.parser')
 
 with open("pretty_wiki_html.html", "w", encoding='utf_8') as f:
@@ -37,8 +41,10 @@ with open('headlines.txt', 'w', encoding='utf_8') as file:
                 if neighbour.name == 'table':
                     links = neighbour.find_all('a', href=lambda href: href and not href.startswith('#'))
                     for link in links:
-                        relative_url = link.attrs['href']
-                        file.write(f"{link.text}: {complete_url(relative_url)}" + '\n')
+                        # file.write(link.__str__() + '\n')
+                        if the_course_is_not_empty(link):
+                            relative_url = link.attrs['href']
+                            file.write(f"{link.text}: {complete_url(relative_url)}" + '\n')
 
 
 # print(result, '\n')
