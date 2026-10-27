@@ -1,6 +1,12 @@
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 with open ("wiki.html", "r", encoding="utf_8") as file:
     text = file.read()
+
+def complete_url(relative_url):
+    base_url = "https://wiki.atp-fivt.org" 
+    full_url = urljoin(base_url, relative_url)
+    return full_url
 
 soup = BeautifulSoup(text, 'html.parser')
 
@@ -31,7 +37,8 @@ with open('headlines.txt', 'w', encoding='utf_8') as file:
                 if neighbour.name == 'table':
                     links = neighbour.find_all('a', href=lambda href: href and not href.startswith('#'))
                     for link in links:
-                        file.write(f"{link.text}: {link.attrs['href']}" + '\n')
+                        relative_url = link.attrs['href']
+                        file.write(f"{link.text}: {complete_url(relative_url)}" + '\n')
 
 
 # print(result, '\n')
