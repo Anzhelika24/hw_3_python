@@ -8,8 +8,8 @@ def complete_url(relative_url):
     full_url = urljoin(base_url, relative_url)
     return full_url
 
-def the_course_is_not_empty(link):
-    if 'class' in link.attrs and link.attrs['class'] != 'new':
+def the_course_is_empty(link):
+    if 'class' in link.attrs and 'new' in link.attrs['class']:
         return True 
 
 soup = BeautifulSoup(text, 'html.parser')
@@ -42,7 +42,7 @@ with open('headlines.txt', 'w', encoding='utf_8') as file:
                     links = neighbour.find_all('a', href=lambda href: href and not href.startswith('#'))
                     for link in links:
                         # file.write(link.__str__() + '\n')
-                        if the_course_is_not_empty(link):
+                        if not the_course_is_empty(link):
                             relative_url = link.attrs['href']
                             file.write(f"{link.text}: {complete_url(relative_url)}" + '\n')
 
