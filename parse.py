@@ -3,14 +3,20 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from pathlib import Path
 
-def create_main_html(domain):
-    response = requests.get(domain, timeout=10)
+def download_page(url, filename):
+    response = requests.get(url, timeout=10)
     response.raise_for_status()
 
-    with open(f"wiki.html", "w", encoding="utf-8") as file:
+    with open(f"{filename}.html", "w", encoding="utf-8") as file:
         file.write(response.text)
 
     print("Страница сохранена")
+
+def download_courses_pages(adresses):
+    name_dir = 'courses_2025_2026'
+    Path('courses_2025_2026').mkdir(exist_ok=True)
+    for url, name in adresses.items():
+        download_page(url, f'{name_dir}/{name}')
 
 def complete_url(relative_url, domain):
     full_url = urljoin(domain, relative_url)
@@ -23,7 +29,7 @@ def the_course_is_empty(link):
 domain = "https://wiki.atp-fivt.org/"
 
 if not Path('wiki.html').is_file():
-    create_main_html(domain)
+    download_page(domain, filename='wiki.html')
 
 with open ("wiki.html", "r", encoding="utf_8") as file:
     text = file.read()
@@ -44,7 +50,7 @@ text_new = '\n'.join(result)
 with open("links.txt", "w", encoding='utf_8') as f:
     f.write(text_new)
 
-unique_adresses = set()
+unique_adresses = dict()
 
 courses = {
     "Весенний семестр 2025 года": {},
@@ -72,9 +78,11 @@ for headline in headlines:
 
 count = 0
 for _, semester_courses in courses.items():
-    for course_url, _ in semester_courses.items():
+    for course_url, course_name in semester_courses.items():
         count += 1
-        unique_adresses.add(course_url)
+        unique_adresses[course_url] = course_name
+
+download_courses_pages(unique_adresses)
 
 print(f'было: {count}, стало: {len(unique_adresses)}')
         
