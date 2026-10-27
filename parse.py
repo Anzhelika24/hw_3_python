@@ -19,10 +19,20 @@ with open("links.txt", "w", encoding='utf_8') as f:
     f.write(text_new)
 
 headlines = soup.find_all('span', attrs={'class': 'mw-headline'})
-with open('headlines.txt', 'a', encoding='utf_8') as file:
+with open('headlines.txt', 'w', encoding='utf_8') as file:
     for headline in headlines:
         head_text = headline.text
         if ('2025' in head_text or '2026' in head_text):
             file.write(head_text + '\n')
+            heading = headline.parent
+            for neighbour in heading.find_next_siblings():
+                if neighbour.name == 'h3':
+                    break
+                if neighbour.name == 'table':
+                    links = soup.find_all('a', href=lambda href: href and not href.startswith('#'))
+                    for link in links:
+                        file.write(link.text + '\n')
+
+
 # print(result, '\n')
 # print(text_new)
