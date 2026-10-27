@@ -28,10 +28,6 @@ text_new = '\n'.join(result)
 with open("links.txt", "w", encoding='utf_8') as f:
     f.write(text_new)
 
-
-semesters = dict()
-semesters['k'] = {'a'}
-semesters['k'].add('b')
 unique_adresses = set()
 
 courses = {
@@ -57,6 +53,15 @@ for headline in headlines:
                         relative_url = link.attrs['href']
                         full_url = complete_url(relative_url)
                         courses[head_text][full_url] = link.text
+
+count = 0
+for _, semester_courses in courses.items():
+    for course_url, _ in semester_courses.items():
+        count += 1
+        unique_adresses.add(course_url)
+
+print(f'было: {count}, стало: {len(unique_adresses)}')
+        
 
 with open('headlines.txt', 'w', encoding='utf_8') as file:
     for semester_name, semester_courses in courses.items():
