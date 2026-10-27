@@ -1,7 +1,15 @@
+import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-with open ("wiki.html", "r", encoding="utf_8") as file:
-    text = file.read()
+
+def create_main_html():
+    response = requests.get("https://wiki.atp-fivt.org/", timeout=10)
+    response.raise_for_status()
+
+    with open(f"wiki.html", "w", encoding="utf-8") as file:
+        file.write(response.text)
+
+    print("Страница сохранена")
 
 def complete_url(relative_url):
     base_url = "https://wiki.atp-fivt.org" 
@@ -11,6 +19,12 @@ def complete_url(relative_url):
 def the_course_is_empty(link):
     if 'class' in link.attrs and 'new' in link.attrs['class']:
         return True 
+
+
+create_main_html()
+
+with open ("wiki.html", "r", encoding="utf_8") as file:
+    text = file.read()
 
 soup = BeautifulSoup(text, 'html.parser')
 
