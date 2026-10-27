@@ -22,7 +22,7 @@ def the_course_is_empty(link):
 
 domain = "https://wiki.atp-fivt.org/"
 
-if not Path('wiki.html').is_file:
+if not Path('wiki.html').is_file():
     create_main_html(domain)
 
 with open ("wiki.html", "r", encoding="utf_8") as file:
