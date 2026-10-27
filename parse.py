@@ -31,7 +31,7 @@ with open('headlines.txt', 'w', encoding='utf_8') as file:
                 if neighbour.name == 'table':
                     links = neighbour.find_all('a', href=lambda href: href and not href.startswith('#'))
                     for link in links:
-                        file.write(link.text + '\n')
+                        file.write(f"{link.text}: {link.attrs['href']}" + '\n')
 
 
 # print(result, '\n')
