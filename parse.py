@@ -91,8 +91,13 @@ for semester_name, semester_courses in courses.items():
         elif semester_name_list[0] == 'Осенний':
             course_season = 'Осень'  
         course_year = semester_name_list[2]
-        unique_adresses[course_url] = course_name.strip() + '_' + course_season + '_' + course_year
 
+        suffix = f"{course_season}_{course_year}"
+        if course_url in unique_adresses:
+            unique_adresses[course_url] += f"_{suffix}"
+        else:
+            unique_adresses[course_url] = f"{course_name.strip()}_{suffix}"
+        
 download_courses_pages(unique_adresses)
 
 print(f'было: {count}, стало: {len(unique_adresses)}')
