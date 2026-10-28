@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from pathlib import Path
+import time
 
 def download_page(url, filename):
     response = requests.get(url, timeout=10)
@@ -17,7 +18,10 @@ def download_courses_pages(adresses):
     Path('courses_2025_2026').mkdir(exist_ok=True)
     for url, name in adresses.items():
         safe_name = name.replace("/", "_")
-        download_page(url, f'{name_dir}/{safe_name}')
+        if not Path(f"{name_dir}/{safe_name}.html").is_file():
+            download_page(url, f'{name_dir}/{safe_name}')
+            time.sleep(2)
+
 
 def complete_url(relative_url, domain):
     full_url = urljoin(domain, relative_url)
