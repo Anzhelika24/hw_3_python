@@ -29,8 +29,8 @@ def the_course_is_empty(link):
 
 domain = "https://wiki.atp-fivt.org/"
 
-if not Path('wiki').is_file():
-    download_page(domain, filename='wiki.html')
+if not Path("wiki.html").is_file():
+    download_page(domain, filename="wiki")
 
 with open ("wiki.html", "r", encoding="utf_8") as file:
     text = file.read()
