@@ -82,10 +82,16 @@ for headline in headlines:
                         courses[head_text][full_url] = link.text
 
 count = 0
-for _, semester_courses in courses.items():
+for semester_name, semester_courses in courses.items():
     for course_url, course_name in semester_courses.items():
         count += 1
-        unique_adresses[course_url] = course_name
+        semester_name_list = semester_name.split()
+        if semester_name_list[0] == 'Весенний':
+            course_season = 'Весна'
+        elif semester_name_list[0] == 'Осенний':
+            course_season = 'Осень'  
+        course_year = semester_name_list[2]
+        unique_adresses[course_url] = course_name.strip() + '_' + course_season + '_' + course_year
 
 download_courses_pages(unique_adresses)
 
