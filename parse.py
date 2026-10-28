@@ -14,16 +14,17 @@ def download_page(url, filename):
     print("Страница сохранена", ':')
 
 def download_courses_pages(adresses):
-    count = 0
     name_dir = 'courses_2025_2026'
     Path('courses_2025_2026').mkdir(exist_ok=True)
     for url, name in adresses.items():
         safe_name = name.replace("/", "_")
         if not Path(f"{name_dir}/{safe_name}.html").is_file():
-            download_page(url, f'{name_dir}/{safe_name}')
-            time.sleep(2)
-            count+= 1
-            print(count)
+            try:
+                download_page(url, f'{name_dir}/{safe_name}')
+            except requests.RequestException as error:
+                print(f'Ошибка при скачивании {url}: {error}')
+            finally:
+                time.sleep(2)
 
 
 def complete_url(relative_url, domain):
