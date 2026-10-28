@@ -23,10 +23,10 @@ def download_page(url, filename, additional_err_text=""):
         print(f'Ошибка при скачивании {url}: {error}')
         if additional_err_text:
             print(additional_err_text)
-            sys.exit()
         return False
     finally:
         time.sleep(2)
+
 
 def download_courses_pages(adresses):
     name_dir = 'courses_2025_2026'
@@ -45,9 +45,9 @@ def the_course_is_empty(link):
         return True 
 
 domain = "https://wiki.atp-fivt.org/"
-
-download_page(domain, "wiki", "Без главной страницы скачивание остальных невозможно")
-
+if not download_page(domain, "wiki", "Без главной страницы скачивание остальных невозможно"):
+    sys.exit()
+    
 with open ("wiki.html", "r", encoding="utf_8") as file:
     text = file.read()
 
