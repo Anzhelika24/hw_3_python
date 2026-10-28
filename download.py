@@ -85,7 +85,7 @@ for headline in headlines:
         for neighbour in heading.find_next_siblings():
             if neighbour.name == 'h3':
                 break
-            if neighbour.name == 'table':
+            if neighbour.name in ('table', 'p'):
                 links = neighbour.find_all('a', href=lambda href: href and not href.startswith('#'))
                 for link in links:
                     if not the_course_is_empty(link):
