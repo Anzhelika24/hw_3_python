@@ -46,7 +46,7 @@ def the_course_is_empty(link):
 
 domain = "https://wiki.atp-fivt.org/"
 if not download_page(domain, "wiki", "Без главной страницы скачивание остальных невозможно"):
-    sys.exit()
+    sys.exit(1)
     
 with open ("wiki.html", "r", encoding="utf_8") as file:
     text = file.read()
