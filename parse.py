@@ -4,27 +4,34 @@ from urllib.parse import urljoin
 from pathlib import Path
 import time
 
-def download_page(url, filename):
-    response = requests.get(url, timeout=10)
-    response.raise_for_status()
+def download_page(url, filename, additional_err_text=""):
+    if Path(f"{filename}.html").is_file():
+        return True
 
-    with open(f"{filename}.html", "w", encoding="utf-8") as file:
-        file.write(response.text)
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+    
+        with open(f"{filename}.html", "w", encoding="utf-8") as file:
+            file.write(response.text)
 
-    print("Страница сохранена", ':')
+        print("Страница сохранена")
+        return True
+
+    except requests.RequestException as error:
+        print(f'Ошибка при скачивании {url}: {error}')
+        if additional_err_text:
+            print(additional_err_text)
+        return False
+    finally:
+        time.sleep(2)
 
 def download_courses_pages(adresses):
     name_dir = 'courses_2025_2026'
     Path('courses_2025_2026').mkdir(exist_ok=True)
     for url, name in adresses.items():
         safe_name = name.replace("/", "_")
-        if not Path(f"{name_dir}/{safe_name}.html").is_file():
-            try:
-                download_page(url, f'{name_dir}/{safe_name}')
-            except requests.RequestException as error:
-                print(f'Ошибка при скачивании {url}: {error}')
-            finally:
-                time.sleep(2)
+        download_page(url, f'{name_dir}/{safe_name}')
 
 
 def complete_url(relative_url, domain):
@@ -37,8 +44,7 @@ def the_course_is_empty(link):
 
 domain = "https://wiki.atp-fivt.org/"
 
-if not Path("wiki.html").is_file():
-    download_page(domain, filename="wiki")
+download_page(domain, "wiki", "Без главной страницы скачивание остальных невозможно")
 
 with open ("wiki.html", "r", encoding="utf_8") as file:
     text = file.read()
