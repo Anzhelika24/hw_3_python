@@ -11,9 +11,10 @@ def download_page(url, filename):
     with open(f"{filename}.html", "w", encoding="utf-8") as file:
         file.write(response.text)
 
-    print("Страница сохранена")
+    print("Страница сохранена", ':')
 
 def download_courses_pages(adresses):
+    count = 0
     name_dir = 'courses_2025_2026'
     Path('courses_2025_2026').mkdir(exist_ok=True)
     for url, name in adresses.items():
@@ -21,6 +22,8 @@ def download_courses_pages(adresses):
         if not Path(f"{name_dir}/{safe_name}.html").is_file():
             download_page(url, f'{name_dir}/{safe_name}')
             time.sleep(2)
+            count+= 1
+            print(count)
 
 
 def complete_url(relative_url, domain):
