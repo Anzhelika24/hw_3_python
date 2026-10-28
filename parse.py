@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from pathlib import Path
 import time
+import sys
 
 def download_page(url, filename, additional_err_text=""):
     if Path(f"{filename}.html").is_file():
@@ -22,6 +23,7 @@ def download_page(url, filename, additional_err_text=""):
         print(f'Ошибка при скачивании {url}: {error}')
         if additional_err_text:
             print(additional_err_text)
+            sys.exit()
         return False
     finally:
         time.sleep(2)
