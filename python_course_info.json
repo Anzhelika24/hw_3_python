@@ -3,8 +3,10 @@
     "assessment": "дифф. зачет",
     "has_course_plan": true,
     "course_leader": null,
-    "course_data": [
+    "has_contacts": true,
+    "contacts": [
         "python4da@yandex.ru",
         "https://t.me/+syubUCT4cUc5MGY6"
-    ]
+    ],
+    "homework_count": 6
 }

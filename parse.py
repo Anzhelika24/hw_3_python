@@ -54,9 +54,21 @@ def find_contacts(content):
 
     return cleaned_emails + telegram_links
 
+def counting_homeworks(content):
+    patterns = [
+    r'(?:запланировано|всего)\s+(\d+)\s+домашних\s+заданий',
+    r'(?:запланировано|всего)\s+домашних\s+заданий\s*[:—–-]?\s*(\d+)',
+]
+    for pattern in patterns:
+        match = re.search(pattern, content.text)
+        if match:
+            return int(match.group(1))
+    return None
+
 def create_dict_for_course_info(soup):
     content = soup.find(attrs={"class": "mw-parser-output"})
-    course_info = {'title': None, 'assessment': None, 'has_course_plan': None, 'course_leader': None, 'contacts': None}
+    course_info = {'title': None, 'assessment': None, 'has_course_plan': None, 'course_leader': None, 'has_contacts': None, 'contacts': None, 
+                   'homework_count': None}
     course_info['title'] = soup.find(attrs={"class": "mw-page-title-main"}).text.strip()
     sections = extract_sections(content)
     # pattern_assessment = r'оцен'
@@ -65,6 +77,8 @@ def create_dict_for_course_info(soup):
     course_info['has_course_plan'] = sections.get('План курса', None) is not None
     course_info['course_leader'] = sections.get('Руководитель курса', None)
     course_info['contacts'] = find_contacts(content)
+    course_info['has_contacts'] = bool(course_info['contacts'])
+    course_info['homework_count'] = counting_homeworks(content)
     return course_info
 
 course_info = create_dict_for_course_info(soup)
