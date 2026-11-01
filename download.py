@@ -67,13 +67,14 @@ text_new = '\n'.join(result)
 with open("links.txt", "w", encoding='utf_8') as f:
     f.write(text_new)
 
-courses = {
+
+def collect_courses(soup, domain):
+    courses = {
     "Весенний семестр 2025 года": {},
     "Осенний семестр 2025 года": {},
     "Весенний семестр 2026 года": {},
     "Осенний семестр 2026 года": {},
-}
-def collect_courses(soup, domain):
+    }   
     headlines = soup.find_all('span', attrs={'class': 'mw-headline'})
     for headline in headlines:
         head_text = headline.text
@@ -119,5 +120,4 @@ with open('headlines.txt', 'w', encoding='utf_8') as file:
         file.write(semester_name + '\n\n')
         for course_url, name_course in semester_courses.items():
             file.write(f'{name_course}: {course_url}' + '\n')
-# print(result, '\n')
-# print(text_new)
+
