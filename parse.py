@@ -73,7 +73,7 @@ def create_dict_for_course_info(soup):
     course_info = {}
     if content is None:
         course_info['sections'] = {}
-        course_info['full_text'] = content.text.strip()
+        course_info['full_text'] = soup.text.strip()
         course_info['title'] = soup.find(attrs={"class": "mw-page-title-main"})
         course_info['parse_status'] = 'unsupported format'
         return course_info
