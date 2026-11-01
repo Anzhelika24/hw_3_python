@@ -82,7 +82,7 @@ def create_dict_for_course_info(soup):
         course_info['sections'] = {}
         course_info['full_text'] = soup.text.strip()
         course_info['title'] = soup.find(attrs={"class": "mw-page-title-main"})
-        course_info['parse_status'] = 'unsupported format'
+        course_info['is_parsed'] = False
         return course_info
     course_info = {'title': None, 'assessment': None, 'has_course_plan': None, 'course_leader': None, 'has_contacts': None, 'contacts': None, 
                    'homework_count': None}
@@ -90,8 +90,8 @@ def create_dict_for_course_info(soup):
     sections = extract_sections(content)
     course_info['sections'] = sections
     course_info['full_text'] = content.text.strip()
-    course_info['parse_status'] = 'ok'
-    assessment = find_field(content, sections, r'Форма\s+(контроля|отч[её]тности)')
+    course_info['is_parsed'] = True
+    assessment = find_field(content, sections, r'Форма\s+(?:контроля|отч[её]тности)')
 
     if assessment and re.search(r'зач[её]т|экзамен', assessment, flags=re.IGNORECASE):
         course_info['assessment'] = assessment
@@ -150,8 +150,8 @@ def count_missing_values(courses_info):
 courses_info = create_course_info_json()
 count_missing_values(courses_info)
 
-with open('courses_info.json', 'r', encoding='utf-8') as f:
-    courses_info = json.load(f)
-    for file_path, course_info in courses_info.items():
-        if len(course_info['semesters']) > 1:
-            print(f"Курс '{course_info['title']}' ({file_path}) встречается в нескольких семестрах: {', '.join(course_info['semesters'])}", '\n')
+# with open('courses_info.json', 'r', encoding='utf-8') as f:
+#     courses_info = json.load(f)
+#     for file_path, course_info in courses_info.items():
+#         if len(course_info['semesters']) > 1:
+#             print(f"Курс '{course_info['title']}' ({file_path}) встречается в нескольких семестрах: {', '.join(course_info['semesters'])}", '\n')
