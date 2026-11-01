@@ -67,8 +67,6 @@ text_new = '\n'.join(result)
 with open("links.txt", "w", encoding='utf_8') as f:
     f.write(text_new)
 
-unique_adresses = dict()
-
 courses = {
     "Весенний семестр 2025 года": {},
     "Осенний семестр 2025 года": {},
@@ -77,7 +75,6 @@ courses = {
 }
 
 headlines = soup.find_all('span', attrs={'class': 'mw-headline'})
-#236
 for headline in headlines:
     head_text = headline.text
     if ('2025' in head_text or '2026' in head_text):
@@ -93,26 +90,27 @@ for headline in headlines:
                         full_url = complete_url(relative_url, domain)
                         courses[head_text][full_url] = link.text
 
-count = 0
-for semester_name, semester_courses in courses.items():
-    for course_url, course_name in semester_courses.items():
-        count += 1
-        semester_name_list = semester_name.split()
-        if semester_name_list[0] == 'Весенний':
-            course_season = 'Весна'
-        elif semester_name_list[0] == 'Осенний':
-            course_season = 'Осень'  
-        course_year = semester_name_list[2]
+def take_unique_adresses(courses):
+    unique_adresses = dict()
+    for semester_name, semester_courses in courses.items():
+        for course_url, course_name in semester_courses.items():
+            count += 1
+            semester_name_list = semester_name.split()
+            if semester_name_list[0] == 'Весенний':
+                course_season = 'Весна'
+            elif semester_name_list[0] == 'Осенний':
+                course_season = 'Осень'  
+            course_year = semester_name_list[2]
 
-        suffix = f"{course_season}_{course_year}"
-        if course_url in unique_adresses:
-            unique_adresses[course_url] += f"_{suffix}"
-        else:
-            unique_adresses[course_url] = f"{course_name.strip()}_{suffix}"
-        
+            suffix = f"{course_season}_{course_year}"
+            if course_url in unique_adresses:
+                unique_adresses[course_url] += f"_{suffix}"
+            else:
+                unique_adresses[course_url] = f"{course_name.strip()}_{suffix}"
+    return courses, unique_adresses
+
+unique_adresses = take_unique_adresses(courses)[1]
 download_courses_pages(unique_adresses)
-
-print(f'было: {count}, стало: {len(unique_adresses)}')
         
 
 with open('headlines.txt', 'w', encoding='utf_8') as file:

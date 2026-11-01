@@ -108,3 +108,9 @@ def create_course_info_json():
 
 create_course_info_json()
 
+{
+    "courses_2025_2026/Название_Весна_2026.html": {
+        "url": "полный адрес страницы",
+        "semesters": ["Весенний семестр 2026 года"]
+    }
+}
