@@ -140,7 +140,7 @@ def create_dict_for_course_info(soup):
     course_info['has_course_plan'] = sections.get('План курса', None) is not None or sections.get('Программа курса', None) is not None
     course_info['course_leader'] = find_field(content, sections, r'Руководител[ьи]\s+курса')
     if course_info['course_leader'] is None:
-        course_info['course_leader'] = find_field(content, sections, r'Лектор[\w|\s]*')
+        course_info['course_leader'] = find_field(content, sections, r'\bЛектор(?:[ \t]+курса|[ \t]+[и|/][ \t]+семинарист)?')
     if course_info['course_leader'] is None:
         course_info['course_leader'] = find_field(content, sections, r'Преподавател[ьи]')
 
