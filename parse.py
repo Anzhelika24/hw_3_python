@@ -30,33 +30,29 @@ def find_contacts(content):
     pattern_mail = r'[\w\.-]+@[\w\.-]+'
     emails = re.findall(pattern_mail, content.text)
     cleaned_emails = list(set(email.strip('.,') for email in emails))
-
     telegram_links = []
     for link in content.find_all('a', attrs={'href': True}):
         if 't.me/' in link['href']:
             telegram_links.append(link['href'])
     telegram_links = list(set(telegram_links))
-
     return cleaned_emails + telegram_links
+
 
 def counting_homeworks(content):
     text = content.text
 
     pattern = (
-        r'\b(?:мини-)?дз[ \t]*[№#]?[ \t]*\d+\b'
-        r'|мини-дз[ \t]+[^\n]+'
+        r'\b(?:мини-)?дз[ \t]*[№#]?[ \t]*\d+\b|мини-дз[ \t]+[^\n]+'
     )
 
     names = re.findall(pattern, text, flags=re.IGNORECASE)
     homeworks = set()
-
     for name in names:
         name = ''.join(name.lower().split())
         name = name.replace('№', '').replace('#', '')
         homeworks.add(name)
 
     counts = []
-
     if homeworks:
         counts.append(len(homeworks))
 
@@ -64,14 +60,11 @@ def counting_homeworks(content):
         r'(?:запланировано|всего)\s+(\d+)\s+домашних\s+заданий',
         r'(?:запланировано|всего)\s+домашних\s+заданий\s*[:—–-]?\s*(\d+)',
     ]
-
     for pattern in patterns:
         match = re.search(pattern, text, flags=re.IGNORECASE)
-
         if match:
             counts.append(int(match.group(1)))
             break
-
     if counts:
         return max(counts)
 
@@ -85,10 +78,8 @@ def find_field(content, section, pattern):
 
     text = content.text
     toc = content.find(id='toc')
-
     if toc is not None:
         text = text.replace(toc.text, '', 1)
-
     pattern = pattern + r'[ \t]*(?:[:-]|\n)\s*([^\n]+)'
     
     for match in re.finditer(pattern, text, flags=re.IGNORECASE):
@@ -102,16 +93,23 @@ def find_field(content, section, pattern):
     
 def create_dict_for_course_info(soup):
     content = soup.find(attrs={"class": "mw-parser-output"})
-    course_info = {}
+    course_info = {'title': None, 
+                   'assessment': None, 
+                   'has_course_plan': None, 
+                   'course_leader': None, 
+                   'has_contacts': None, 
+                   'contacts': None, 
+                   'homework_count': None,
+                   'is_parsed': False,
+                    'sections': {}}
+
+    title_tag = soup.find(attrs={"class": "mw-page-title-main"})
+    if title_tag:
+        course_info['title'] = title_tag.text.strip()
     if content is None:
-        course_info['sections'] = {}
         course_info['full_text'] = soup.text.strip()
-        course_info['title'] = soup.find(attrs={"class": "mw-page-title-main"})
-        course_info['is_parsed'] = False
         return course_info
-    course_info = {'title': None, 'assessment': None, 'has_course_plan': None, 'course_leader': None, 'has_contacts': None, 'contacts': None, 
-                   'homework_count': None}
-    course_info['title'] = soup.find(attrs={"class": "mw-page-title-main"}).text.strip()
+
     sections = extract_sections(content)
     course_info['sections'] = sections
     course_info['full_text'] = content.text.strip()
