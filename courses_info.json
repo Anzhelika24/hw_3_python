@@ -225,7 +225,7 @@
         "title": "ТП весна 2025",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Ахтямов Павел (akhtyamovpavel@akhpl.ru)",
         "has_contacts": true,
         "contacts": [
             "akhtyamovpavel@akhpl.ru"
@@ -445,8 +445,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+sf2FAn5Rs6U4MTdi",
-            "https://t.me/DBarinovv"
+            "https://t.me/DBarinovv",
+            "https://t.me/+sf2FAn5Rs6U4MTdi"
         ],
         "homework_count": null,
         "sections": {
@@ -477,20 +477,20 @@
         "title": "Программирование на Go весна 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Леонид Иванов",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/obvallata",
             "https://t.me/dvinyatinfedor",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/tsmax2004",
-            "https://t.me/divanlitva",
             "https://t.me/shapkapavel",
+            "https://t.me/glhfuck",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/divanlitva",
+            "https://t.me/tsmax2004",
             "https://t.me/loreAdopt",
-            "https://t.me/+kSg2lDTpeRY1YmNi",
             "https://t.me/sshuron",
-            "https://t.me/glhfuck"
+            "https://t.me/obvallata",
+            "https://t.me/+kSg2lDTpeRY1YmNi"
         ],
         "homework_count": 11,
         "sections": {
@@ -542,7 +542,7 @@
         "title": "Основы непрерывной интеграции (DevOps) весна 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Константин Брюханов",
         "has_contacts": true,
         "contacts": [
             "https://t.me/+_Lp7nzTXAfswZjUy"
@@ -563,7 +563,7 @@
         "title": "Языки программирования и теория компиляции весна 2025",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Ахтямов Павел",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -584,7 +584,7 @@
         "title": "Теория и практика многопоточной синхронизации весна 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Роман Липовский",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -726,8 +726,8 @@
         "contacts": [
             "smolkina.iua@phystech.edu",
             "yakusheva.sf@phystech.edu",
-            "https://t.me/+f1EF4ocv63JlOWQy",
             "https://t.me/+BLMHzOvg5xpiMzUy",
+            "https://t.me/+f1EF4ocv63JlOWQy",
             "https://t.me/+4qMcvGbxeq0zNWMy"
         ],
         "homework_count": null,
@@ -804,7 +804,7 @@
         "title": "Параллельные и распределенные вычисления весна 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Чернецкий Аркадий",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
@@ -837,7 +837,7 @@
         "title": "Функциональные языки программирования весна 2025",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Дашков Евгений",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -859,7 +859,7 @@
         "title": "Разработка на Android весна 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Джангирли Эмиль Эльшадович",
         "has_contacts": true,
         "contacts": [
             "https://t.me/fisic_from_fivt"
@@ -889,7 +889,7 @@
         "title": "Разработка на Flutter весна 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Полюхович Владимир Владимирович",
         "has_contacts": true,
         "contacts": [
             "https://t.me/+eJSsfe2X3vRmMmE6"
@@ -984,7 +984,7 @@
         "title": "Технологии программирования на Java весна 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Александр Ермаков",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
@@ -1046,7 +1046,7 @@
         "title": "Машинное обучение на практике весна 2025",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Виктор Кантор",
         "has_contacts": true,
         "contacts": [
             "https://t.me/+PxdThaEu48JlM2Qy"
@@ -1620,7 +1620,7 @@
         "title": "Формальные языки и трансляции 2025 Основной поток",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": "",
+        "course_leader": "1.3 Преподаватели курса",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -1646,7 +1646,7 @@
         "title": "Формальные языки и трансляции 2025 Продвинутый поток",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": "",
+        "course_leader": "1.3 Преподаватели курса",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -1672,7 +1672,7 @@
         "title": "Формальные языки и трансляции 2025 Иностранный поток",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": "",
+        "course_leader": "1.3 Преподаватели курса",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -1698,7 +1698,7 @@
         "title": "Алгоритмы на графах и динамическое программирование 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": "",
+        "course_leader": "1.3 Преподаватели курса",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -1724,25 +1724,25 @@
         "title": "Промышленное программирование на языке Java 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Александр Ермаков @AlexOEJ",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
+            "https://t.me/+IML2UmP5IbNkMWJi",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/onepathq",
+            "https://t.me/taekwandodo",
+            "https://t.me/int_main_int",
+            "https://t.me/juletats",
+            "https://t.me/AlexOEJ",
+            "https://t.me/pyrrrolidine",
+            "https://t.me/ivan_ponomarev",
+            "https://t.me/s_chesnokoff",
+            "https://t.me/konstantin_galperin",
             "https://t.me/EntityResult",
             "https://t.me/fanastasiiaf",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/pyrrrolidine",
-            "https://t.me/taekwandodo",
-            "https://t.me/ivan_ponomarev",
-            "https://t.me/AlexOEJ",
-            "https://t.me/s_chesnokoff",
             "https://t.me/Popadosych",
-            "https://t.me/+IML2UmP5IbNkMWJi",
-            "https://t.me/int_main_int",
-            "https://t.me/konstantin_galperin",
-            "https://t.me/maryrubik",
-            "https://t.me/onepathq",
-            "https://t.me/juletats"
+            "https://t.me/maryrubik"
         ],
         "homework_count": null,
         "sections": {
@@ -1794,12 +1794,12 @@
         "title": "Параллельные и распределенные вычисления 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Чернецкий Аркадий",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/+tvtBcWrDSgVmYzEy",
-            "https://t.me/atpfpmi_curators"
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/+tvtBcWrDSgVmYzEy"
         ],
         "homework_count": null,
         "sections": {
@@ -1858,13 +1858,13 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/Nagaiko_Ivan",
-            "https://t.me/antprts",
             "https://t.me/asbashkatov",
+            "https://t.me/atpfpmi_curators",
             "https://t.me/+DYhkiivtfy8xNTZi",
+            "https://t.me/antprts",
+            "https://t.me/grandrust",
             "https://t.me/burov_na",
-            "https://t.me/grandrust"
+            "https://t.me/Nagaiko_Ivan"
         ],
         "homework_count": null,
         "sections": {
@@ -2078,8 +2078,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+GwMzsq589jJkYjgy",
-            "https://t.me/sekretar_atp"
+            "https://t.me/sekretar_atp",
+            "https://t.me/+GwMzsq589jJkYjgy"
         ],
         "homework_count": null,
         "sections": {
@@ -2317,7 +2317,7 @@
         "title": "Алгоритмы и структуры данных II. Продвинутый поток весна 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Рухович Филипп Дмитриевич.",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -2339,7 +2339,7 @@
         "title": "Алгоритмы и структуры данных II. Иностранный поток весна 2026",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Александр Смолин",
         "has_contacts": true,
         "contacts": [
             "https://t.me/ads_foreings"
@@ -2462,21 +2462,21 @@
         "title": "Программирование на Go весна 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Леонид Иванов",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/obvallata",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/+oV7SE5C92w44ODIy",
-            "https://t.me/tsmax2004",
-            "https://t.me/loreAdopt",
-            "https://t.me/shapkapavel",
-            "https://t.me/sshuron",
             "https://t.me/rud_yandex",
-            "https://t.me/vmarunin",
+            "https://t.me/shapkapavel",
+            "https://t.me/glhfuck",
+            "https://t.me/atpfpmi_curators",
             "https://t.me/onepathq",
-            "https://t.me/glhfuck"
+            "https://t.me/loreAdopt",
+            "https://t.me/tsmax2004",
+            "https://t.me/sshuron",
+            "https://t.me/obvallata",
+            "https://t.me/vmarunin",
+            "https://t.me/+oV7SE5C92w44ODIy"
         ],
         "homework_count": 11,
         "sections": {
@@ -2547,7 +2547,7 @@
         "title": "Языки программирования и теория компиляции весна 2026",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Ахтямов Павел",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -2568,7 +2568,7 @@
         "title": "ИВТ. Алгоритмы обработки строк и теории чисел весна 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Троян-Головян Владислав @vhdev",
         "has_contacts": true,
         "contacts": [
             "https://t.me/+d5W6x0-N-kU4ODhi"
@@ -2639,7 +2639,7 @@
         "title": "ИВТ. Разработка и анализ алгоритмов весна 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Троян-Головян Владислав @vhdev",
         "has_contacts": true,
         "contacts": [
             "https://t.me/+79xMH16hnIU5MTFi"
@@ -2707,7 +2707,7 @@
         "title": "Параллельные и распределенные вычисления весна 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Чернецкий Аркадий",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
@@ -2740,7 +2740,7 @@
         "title": "Разработка на Android весна 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Джангирли Эмиль",
         "has_contacts": true,
         "contacts": [
             "https://t.me/+V0UPMN-6PEg4NjNi"
@@ -2770,14 +2770,14 @@
         "title": "Разработки на Flutter весна 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Золотов Дмитрий Валентинович",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/ftopsg",
-            "https://t.me/atpfpmi_curators",
             "https://t.me/Rybchits",
-            "https://t.me/+Jod4vZUGoRxkNDgy"
+            "https://t.me/+Jod4vZUGoRxkNDgy",
+            "https://t.me/ftopsg",
+            "https://t.me/atpfpmi_curators"
         ],
         "homework_count": null,
         "sections": {
@@ -2812,18 +2812,18 @@
         "title": "Технологии программирования на Java весна 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Александр Ермаков @AlexOEJ",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/EntityResult",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/ivan_ponomarev",
-            "https://t.me/AlexOEJ",
             "https://t.me/+7ZCOoyBjE_JiNGEy",
-            "https://t.me/Popadosych",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/lvanan",
+            "https://t.me/AlexOEJ",
+            "https://t.me/ivan_ponomarev",
             "https://t.me/dfs_dima",
-            "https://t.me/lvanan"
+            "https://t.me/EntityResult",
+            "https://t.me/Popadosych"
         ],
         "homework_count": null,
         "sections": {
@@ -2978,8 +2978,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+GwMzsq589jJkYjgy",
-            "https://t.me/sekretar_atp"
+            "https://t.me/sekretar_atp",
+            "https://t.me/+GwMzsq589jJkYjgy"
         ],
         "homework_count": null,
         "sections": {
@@ -3132,7 +3132,7 @@
         "title": "АКОС (для Blockchain) весна 2026",
         "assessment": "Формат: дистанционный\nФорма контроля: дифференцированный зачет",
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Манаков Данила, лектор",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -3180,7 +3180,7 @@
         "title": "Программирование на языке C++. Базовый поток 2026",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Ибрагимов Булат Ленарович",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -3274,7 +3274,7 @@
         "title": "ММТУ. Введение в программирование",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Беклемышева Катерина Алексеевна, к.ф.-м.н.",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -3585,25 +3585,25 @@
         "title": "Промышленное программирование на языке Java 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Александр Ермаков @AlexOEJ",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
             "https://t.me/EntityResult",
-            "https://t.me/",
-            "https://t.me/allaberenov_k",
-            "https://t.me/ivan_ponomarev",
-            "https://t.me/AlexOEJ",
+            "https://t.me/RBlazhko",
             "https://t.me/vvk101",
-            "https://t.me/dfs_dima",
-            "https://t.me/+OEx0KtMojLwwZmE6",
-            "https://t.me/karmaxxkomao",
-            "https://t.me/konstantin_galperin",
-            "https://t.me/LianaTiholese",
-            "https://t.me/maryrubik",
-            "https://t.me/valeriia_krup",
+            "https://t.me/allaberenov_k",
             "https://t.me/juletats",
-            "https://t.me/RBlazhko"
+            "https://t.me/AlexOEJ",
+            "https://t.me/ivan_ponomarev",
+            "https://t.me/karmaxxkomao",
+            "https://t.me/dfs_dima",
+            "https://t.me/",
+            "https://t.me/valeriia_krup",
+            "https://t.me/+OEx0KtMojLwwZmE6",
+            "https://t.me/LianaTiholese",
+            "https://t.me/konstantin_galperin",
+            "https://t.me/maryrubik"
         ],
         "homework_count": null,
         "sections": {
@@ -3635,7 +3635,7 @@
         "title": "Алгоритмы и структуры данных III. Базовый поток 2026",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Ибрагимов Булат Ленарович",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -3749,7 +3749,7 @@
         "title": "ИВТ. Объектно-ориентированное программирование C++ 2026 Основной поток",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Долта Артем",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -3836,7 +3836,7 @@
         "title": "Параллельные и распределенные вычисления 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Чернецкий Аркадий",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
@@ -3872,14 +3872,14 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+qwmduC3nVE01MmRi",
-            "https://t.me/Nagaiko_Ivan",
-            "https://t.me/antprts",
             "https://t.me/asbashkatov",
-            "https://t.me/LianaTiholese",
-            "https://t.me/burov_na",
+            "https://t.me/antprts",
+            "https://t.me/grandrust",
             "https://t.me/valeriia_krup",
-            "https://t.me/grandrust"
+            "https://t.me/burov_na",
+            "https://t.me/LianaTiholese",
+            "https://t.me/Nagaiko_Ivan",
+            "https://t.me/+qwmduC3nVE01MmRi"
         ],
         "homework_count": null,
         "sections": {
@@ -4274,12 +4274,12 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
+            "https://t.me/OspanovAlen",
             "https://t.me/+HUjyejSRipc3NWY6",
-            "https://t.me/LianaTiholese",
             "https://t.me/Ewsey",
             "https://t.me/valeriia_krup",
-            "https://t.me/fokit26",
-            "https://t.me/OspanovAlen"
+            "https://t.me/LianaTiholese",
+            "https://t.me/fokit26"
         ],
         "homework_count": null,
         "sections": {
@@ -4450,7 +4450,7 @@
         "title": "Организация проведения и оформления результатов НИР 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Якушева Софья Федоровна, к.т.н.",
         "has_contacts": true,
         "contacts": [
             "yakusheva.sf@phystech.edu",

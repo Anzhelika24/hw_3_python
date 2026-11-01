@@ -51,6 +51,19 @@ def counting_homeworks(content):
             return int(match.group(1))
     return None
 
+
+def find_field(content, section, pattern):
+    for section_name, section_text in section.items():
+        if (re.fullmatch(pattern + r'\s*:?', section_name, flags=re.IGNORECASE)):
+            if section_text:
+                return section_text.strip()
+        
+    pattern = pattern + r'[ \t]*(?:[:-]|\n)\s*([^\n]+)'
+    match = re.search(pattern, content.text, flags=re.IGNORECASE)
+    if match:
+        return match.group(1).strip()
+
+    
 def create_dict_for_course_info(soup):
     content = soup.find(attrs={"class": "mw-parser-output"})
     course_info = {}
@@ -71,11 +84,12 @@ def create_dict_for_course_info(soup):
     # course_info['assessment'] = sections.get(pattern_assessment, None)
     course_info['assessment'] = sections.get('Форма контроля', None)
     course_info['has_course_plan'] = sections.get('План курса', None) is not None or sections.get('Программа курса', None) is not None
-    course_info['course_leader'] = sections.get('Руководитель курса', None)
+    course_info['course_leader'] = find_field(content, sections, r'Руководител[ьи]\s+курса')
     course_info['contacts'] = find_contacts(content)
     course_info['has_contacts'] = bool(course_info['contacts'])
     course_info['homework_count'] = counting_homeworks(content)
     return course_info
+
 
 def create_course_info_json():
     courses_info = {}
