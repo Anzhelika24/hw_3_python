@@ -87,7 +87,7 @@ def create_dict_for_course_info(soup):
     # pattern_assessment = r'оцен'
     # course_info['assessment'] = sections.get(pattern_assessment, None)
     course_info['assessment'] = sections.get('Форма контроля', None)
-    course_info['has_course_plan'] = sections.get('План курса', None) is not None
+    course_info['has_course_plan'] = sections.get('План курса', None) is not None or sections.get('Программа курса', None) is not None
     course_info['course_leader'] = sections.get('Руководитель курса', None)
     course_info['contacts'] = find_contacts(content)
     course_info['has_contacts'] = bool(course_info['contacts'])

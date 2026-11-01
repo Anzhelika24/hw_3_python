@@ -20,7 +20,7 @@
     "courses_2025_2026/ИВТ. Объектно-ориентированное программирование C++ Продвинутый поток_Осень_2026.html": {
         "title": "ИВТ.Программирование на языке C++ 2026 Продвинутый поток",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -43,8 +43,8 @@
         "has_contacts": true,
         "contacts": [
             "akhtyamov@phystech.edu",
-            "https://t.me/+ywvmwhtUG-syMTUy",
-            "https://t.me/+X2zKWmmr7gg2Nzgy"
+            "https://t.me/+X2zKWmmr7gg2Nzgy",
+            "https://t.me/+ywvmwhtUG-syMTUy"
         ],
         "homework_count": null,
         "sections": {
@@ -107,12 +107,12 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/fokit26",
             "https://t.me/LianaTiholese",
             "https://t.me/Ewsey",
             "https://t.me/OspanovAlen",
-            "https://t.me/valeriia_krup",
-            "https://t.me/+HUjyejSRipc3NWY6"
+            "https://t.me/+HUjyejSRipc3NWY6",
+            "https://t.me/fokit26",
+            "https://t.me/valeriia_krup"
         ],
         "homework_count": null,
         "sections": {
@@ -152,21 +152,21 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/maryrubik",
-            "https://t.me/dfs_dima",
-            "https://t.me/juletats",
             "https://t.me/LianaTiholese",
             "https://t.me/ivan_ponomarev",
+            "https://t.me/EntityResult",
+            "https://t.me/maryrubik",
+            "https://t.me/juletats",
+            "https://t.me/allaberenov_k",
+            "https://t.me/dfs_dima",
+            "https://t.me/vvk101",
             "https://t.me/+OEx0KtMojLwwZmE6",
-            "https://t.me/",
-            "https://t.me/konstantin_galperin",
             "https://t.me/karmaxxkomao",
-            "https://t.me/valeriia_krup",
+            "https://t.me/konstantin_galperin",
             "https://t.me/AlexOEJ",
             "https://t.me/RBlazhko",
-            "https://t.me/vvk101",
-            "https://t.me/allaberenov_k",
-            "https://t.me/EntityResult"
+            "https://t.me/",
+            "https://t.me/valeriia_krup"
         ],
         "homework_count": null,
         "sections": {
@@ -245,7 +245,7 @@
     "courses_2025_2026/Python_Осень_2026.html": {
         "title": "Python 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -324,7 +324,7 @@
     "courses_2025_2026/Алгоритмы и структуры данных I. Иностранный поток_Осень_2026.html": {
         "title": "Алгоритмы и структуры данных III. Иностранный поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -440,7 +440,7 @@
     "courses_2025_2026/Робастные методы в математической статистике_Осень_2026.html": {
         "title": "Робастные методы в математической статистике 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
@@ -636,8 +636,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/DBarinovv",
-            "https://t.me/+sf2FAn5Rs6U4MTdi"
+            "https://t.me/+sf2FAn5Rs6U4MTdi",
+            "https://t.me/DBarinovv"
         ],
         "homework_count": null,
         "sections": {
@@ -701,7 +701,7 @@
     "courses_2025_2026/Алгоритмы и структуры данных I. Основной поток_Осень_2025.html": {
         "title": "Алгоритмы и структуры данных I. Основной поток 2025",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": "Илья Степанов",
         "has_contacts": false,
         "contacts": [],
@@ -832,7 +832,7 @@
     "courses_2025_2026/ПМИинф. Современные компьютерные сети_Осень_2026.html": {
         "title": "ПМИ Современные компьютерные сети 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
@@ -946,8 +946,8 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/+_edIChPko9EzODli",
-            "https://t.me/LianaTiholese"
+            "https://t.me/LianaTiholese",
+            "https://t.me/+_edIChPko9EzODli"
         ],
         "homework_count": null,
         "sections": {
@@ -996,7 +996,7 @@
     "courses_2025_2026/Операционные системы (курс по выбору. Вместе с АКОС)_Осень_2026.html": {
         "title": "Архитектура компьютеров и операционные системы 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -1021,10 +1021,10 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/Rybchits",
             "https://t.me/+Jod4vZUGoRxkNDgy",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/ftopsg"
+            "https://t.me/Rybchits",
+            "https://t.me/ftopsg",
+            "https://t.me/atpfpmi_curators"
         ],
         "homework_count": null,
         "sections": {
@@ -1127,8 +1127,8 @@
         "contacts": [
             "smolkina.iua@phystech.edu",
             "yakusheva.sf@phystech.edu",
-            "https://t.me/+f1EF4ocv63JlOWQy",
             "https://t.me/+4qMcvGbxeq0zNWMy",
+            "https://t.me/+f1EF4ocv63JlOWQy",
             "https://t.me/+BLMHzOvg5xpiMzUy"
         ],
         "homework_count": null,
@@ -1270,7 +1270,7 @@
     "courses_2025_2026/Машинное обучение на практике_Весна_2025.html": {
         "title": "Машинное обучение на практике весна 2025",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
@@ -1451,7 +1451,7 @@
     "courses_2025_2026/Алгоритмы и структуры данных II. Основной поток_Весна_2025.html": {
         "title": "Алгоритмы и структуры данных II. Основной поток весна 2025",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": "Степанов Илья",
         "has_contacts": false,
         "contacts": [],
@@ -1490,7 +1490,7 @@
     "courses_2025_2026/ИВТ. Алгоритмы и структуры данных. Базовый поток_Осень_2026.html": {
         "title": "ИВТ. Алгоритмы и структуры данных. Базовый поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -1531,7 +1531,7 @@
     "courses_2025_2026/От специалиста к руководителю: как управлять проектами, людьми и изменениями_Осень_2026.html": {
         "title": "От специалиста к руководителю: как управлять проектами, людьми и изменениями 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
@@ -1601,7 +1601,7 @@
     "courses_2025_2026/Программирование на языке C++. Базовый поток_Осень_2026.html": {
         "title": "Программирование на языке C++. Базовый поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -1624,17 +1624,17 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/rud_yandex",
-            "https://t.me/tsmax2004",
-            "https://t.me/+oV7SE5C92w44ODIy",
-            "https://t.me/loreAdopt",
-            "https://t.me/glhfuck",
-            "https://t.me/shapkapavel",
             "https://t.me/sshuron",
-            "https://t.me/vmarunin",
             "https://t.me/onepathq",
+            "https://t.me/tsmax2004",
+            "https://t.me/shapkapavel",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/loreAdopt",
+            "https://t.me/vmarunin",
+            "https://t.me/glhfuck",
             "https://t.me/obvallata",
-            "https://t.me/atpfpmi_curators"
+            "https://t.me/rud_yandex",
+            "https://t.me/+oV7SE5C92w44ODIy"
         ],
         "homework_count": 11,
         "sections": {
@@ -1680,7 +1680,7 @@
     "courses_2025_2026/ИВТ. Архитектура вычислительных систем и языки ассемблера_Весна_2026.html": {
         "title": "ИВТ. Архитектура вычислительных систем и языки ассемблера весна 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -1700,7 +1700,7 @@
     "courses_2025_2026/Программирование на языке C++. Продвинутый поток_Весна_2026.html": {
         "title": "Программирование на языке C++. Продвинутый поток весна 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": "Илья Мещерин",
         "has_contacts": false,
         "contacts": [],
@@ -1722,14 +1722,14 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/dfs_dima",
-            "https://t.me/Popadosych",
             "https://t.me/ivan_ponomarev",
-            "https://t.me/+7ZCOoyBjE_JiNGEy",
+            "https://t.me/EntityResult",
+            "https://t.me/dfs_dima",
             "https://t.me/lvanan",
+            "https://t.me/Popadosych",
             "https://t.me/AlexOEJ",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/EntityResult"
+            "https://t.me/+7ZCOoyBjE_JiNGEy",
+            "https://t.me/atpfpmi_curators"
         ],
         "homework_count": null,
         "sections": {
@@ -1829,7 +1829,7 @@
     "courses_2025_2026/Алгоритмы и структуры данных I. Базовый поток_Осень_2025.html": {
         "title": "Алгоритмы и структуры данных I. Базовый поток 2025",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": "Сергей Никулов",
         "has_contacts": false,
         "contacts": [],
@@ -1856,14 +1856,14 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
+            "https://t.me/LianaTiholese",
+            "https://t.me/antprts",
+            "https://t.me/Nagaiko_Ivan",
             "https://t.me/+qwmduC3nVE01MmRi",
             "https://t.me/burov_na",
-            "https://t.me/LianaTiholese",
-            "https://t.me/asbashkatov",
             "https://t.me/grandrust",
             "https://t.me/valeriia_krup",
-            "https://t.me/antprts",
-            "https://t.me/Nagaiko_Ivan"
+            "https://t.me/asbashkatov"
         ],
         "homework_count": null,
         "sections": {
@@ -1914,14 +1914,14 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/+kSg2lDTpeRY1YmNi",
-            "https://t.me/tsmax2004",
+            "https://t.me/sshuron",
             "https://t.me/divanlitva",
+            "https://t.me/tsmax2004",
+            "https://t.me/shapkapavel",
+            "https://t.me/+kSg2lDTpeRY1YmNi",
+            "https://t.me/dvinyatinfedor",
             "https://t.me/loreAdopt",
             "https://t.me/glhfuck",
-            "https://t.me/shapkapavel",
-            "https://t.me/sshuron",
-            "https://t.me/dvinyatinfedor",
             "https://t.me/obvallata",
             "https://t.me/atpfpmi_curators"
         ],
@@ -1946,7 +1946,7 @@
     "courses_2025_2026/Программирование на языке C++. Базовый поток_Осень_2025.html": {
         "title": "Программирование на языке C++. Базовый поток 2025",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": "Ибрагимов Булат",
         "has_contacts": true,
         "contacts": [
@@ -1993,7 +1993,7 @@
     "courses_2025_2026/Алгоритмы и структуры данных III. Основной поток_Осень_2026.html": {
         "title": "Алгоритмы и структуры данных III. Основной поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -2014,7 +2014,7 @@
     "courses_2025_2026/Высоконадёжные вычисления и системы реального времени_Осень_2025_Осень_2026.html": {
         "title": "Высоконадёжные вычисления и системы реального времени",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
@@ -2107,7 +2107,7 @@
     "courses_2025_2026/Алгоритмы и структуры данных II. Базовый поток_Весна_2026.html": {
         "title": "Алгоритмы и структуры данных II. Базовый поток весна 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": "Ибрагимов Булат",
         "has_contacts": true,
         "contacts": [
@@ -2184,7 +2184,7 @@
     "courses_2025_2026/ИВТ. Объектно-ориентированное программирование на языке C++ Основной поток_Осень_2026.html": {
         "title": "ИВТ. Объектно-ориентированное программирование C++ 2026 Основной поток",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -2201,7 +2201,7 @@
     "courses_2025_2026/Алгоритмы и структуры данных I. Базовый поток_Осень_2026.html": {
         "title": "Алгоритмы и структуры данных I. Базовый поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -2228,7 +2228,7 @@
     "courses_2025_2026/Parallel and Disrtibuted Computing I_Осень_2026.html": {
         "title": "Parallel and Disrtibuted Computing I 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -2251,12 +2251,12 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/burov_na",
-            "https://t.me/asbashkatov",
-            "https://t.me/+DYhkiivtfy8xNTZi",
-            "https://t.me/grandrust",
             "https://t.me/antprts",
             "https://t.me/Nagaiko_Ivan",
+            "https://t.me/burov_na",
+            "https://t.me/+DYhkiivtfy8xNTZi",
+            "https://t.me/grandrust",
+            "https://t.me/asbashkatov",
             "https://t.me/atpfpmi_curators"
         ],
         "homework_count": null,
@@ -2300,7 +2300,7 @@
     "courses_2025_2026/Машинное обучение на практике_Весна_2026.html": {
         "title": "Машинное обучение на практике весна 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
@@ -2351,8 +2351,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+GwMzsq589jJkYjgy",
-            "https://t.me/sekretar_atp"
+            "https://t.me/sekretar_atp",
+            "https://t.me/+GwMzsq589jJkYjgy"
         ],
         "homework_count": null,
         "sections": {
@@ -2376,7 +2376,7 @@
     "courses_2025_2026/Программирование на языке C++. Продвинутый поток_Осень_2026.html": {
         "title": "Программирование на языке C++. Продвинутый поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -2449,7 +2449,7 @@
     "courses_2025_2026/Проектирование программных систем_Осень_2026.html": {
         "title": "Проектирование программных систем 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": "Хританков Антон Сергеевич, https://objectoriented.ru/me:research",
         "has_contacts": false,
         "contacts": [],
@@ -2611,7 +2611,7 @@
     "courses_2025_2026/Алгоритмы и структуры данных I. Продвинутый поток_Осень_2026.html": {
         "title": "Алгоритмы и структуры данных I. Продвинутый поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -2759,7 +2759,7 @@
     "courses_2025_2026/Программирование на языке C++. Основной (односеместровый)_Осень_2026.html": {
         "title": "Программирование на языке C++. (односеместровый) 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
@@ -2795,7 +2795,7 @@
     "courses_2025_2026/ИВТ. Алгоритмы на графах и динамическое программирование_Осень_2026.html": {
         "title": "Алгоритмы на графах и динамическое программирование 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -2870,7 +2870,7 @@
     "courses_2025_2026/Программирование на языке C++. Основной поток (двухсеместровый)_Осень_2026.html": {
         "title": "Программирование на языке C++. Основной поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -2923,7 +2923,7 @@
     "courses_2025_2026/ИВТ. Алгоритмы и структуры данных. Продвинутый поток_Осень_2026.html": {
         "title": "ИВТ. Алгоритмы и структуры данных. Продвинутый поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -2960,7 +2960,7 @@
     "courses_2025_2026/Алгоритмы и структуры данных III. Продвинутый  поток_Осень_2026.html": {
         "title": "Алгоритмы и структуры данных III. Продвинутый поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -2976,7 +2976,7 @@
     "courses_2025_2026/Workshop on Software Development_Осень_2025.html": {
         "title": "Workshop on Software Development 2025",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": "Юлия Иванова",
         "has_contacts": false,
         "contacts": [],
@@ -3085,8 +3085,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+GwMzsq589jJkYjgy",
-            "https://t.me/sekretar_atp"
+            "https://t.me/sekretar_atp",
+            "https://t.me/+GwMzsq589jJkYjgy"
         ],
         "homework_count": null,
         "sections": {
@@ -3110,7 +3110,7 @@
     "courses_2025_2026/Алгоритмы и структуры данных I. Основной поток_Осень_2026.html": {
         "title": "Алгоритмы и структуры данных I. Основной поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -3131,7 +3131,7 @@
     "courses_2025_2026/ИВТ.Современные компьютерные сети_Осень_2026.html": {
         "title": "ИВТ.Современные компьютерные сети 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
@@ -3443,7 +3443,7 @@
     "courses_2025_2026/Алгоритмы и структуры данных III. Базовый поток_Осень_2026.html": {
         "title": "Алгоритмы и структуры данных III. Базовый поток 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -3544,7 +3544,7 @@
     "courses_2025_2026/Математические основания алгоритмов и сложность вычислений. Базовый поток_Осень_2025_Осень_2026.html": {
         "title": "ИВТ. Математические основания алгоритмов и сложность вычислений. 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -3571,7 +3571,7 @@
     "courses_2025_2026/ИВТ. Практикум по объектно-ориентированному программированию. Продвинутый поток_Весна_2026.html": {
         "title": "ИВТ. Практикум по объектно-ориентированному программированию. Продвинутый поток весна 2026",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
@@ -3666,21 +3666,21 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/maryrubik",
-            "https://t.me/fanastasiiaf",
-            "https://t.me/s_chesnokoff",
-            "https://t.me/juletats",
-            "https://t.me/Popadosych",
             "https://t.me/ivan_ponomarev",
-            "https://t.me/+IML2UmP5IbNkMWJi",
-            "https://t.me/pyrrrolidine",
-            "https://t.me/konstantin_galperin",
             "https://t.me/onepathq",
-            "https://t.me/AlexOEJ",
             "https://t.me/int_main_int",
+            "https://t.me/fanastasiiaf",
+            "https://t.me/maryrubik",
+            "https://t.me/juletats",
+            "https://t.me/EntityResult",
+            "https://t.me/+IML2UmP5IbNkMWJi",
             "https://t.me/taekwandodo",
             "https://t.me/atpfpmi_curators",
-            "https://t.me/EntityResult"
+            "https://t.me/Popadosych",
+            "https://t.me/AlexOEJ",
+            "https://t.me/konstantin_galperin",
+            "https://t.me/s_chesnokoff",
+            "https://t.me/pyrrrolidine"
         ],
         "homework_count": null,
         "sections": {
@@ -3737,7 +3737,7 @@
     "courses_2025_2026/ММТУ. Введение в программирование_Осень_2026.html": {
         "title": "ММТУ. Введение в программирование",
         "assessment": null,
-        "has_course_plan": false,
+        "has_course_plan": true,
         "course_leader": null,
         "has_contacts": false,
         "contacts": [],
