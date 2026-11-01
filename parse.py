@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import json
 import re
-from pathlib import Path 
 from download import collect_courses, take_unique_adresses
 
 def parse_html_file(file_path):
@@ -176,8 +175,8 @@ def count_missing_values(courses_info):
 courses_info = create_course_info_json()
 count_missing_values(courses_info)
 
-# with open('courses_info.json', 'r', encoding='utf-8') as f:
-#     courses_info = json.load(f)
-#     for file_path, course_info in courses_info.items():
-#         if len(course_info['semesters']) > 1:
-#             print(f"Курс '{course_info['title']}' ({file_path}) встречается в нескольких семестрах: {', '.join(course_info['semesters'])}", '\n')
+with open('courses_info.json', 'r', encoding='utf-8') as f:
+    courses_info = json.load(f)
+    for file_path, course_info in courses_info.items():
+        if course_info['homework_count'] is not None:
+            print(f"{course_info['url']}: {course_info['homework_count']} домашних заданий")
