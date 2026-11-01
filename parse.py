@@ -93,7 +93,10 @@ def create_dict_for_course_info(soup):
     course_info['parse_status'] = 'ok'
     # pattern_assessment = r'оцен'
     # course_info['assessment'] = sections.get(pattern_assessment, None)
-    course_info['assessment'] = sections.get('Форма контроля', None)
+    assessment = find_field(content, sections, r'Форма\s+контроля')
+
+    if assessment and re.search(r'зач[её]т|экзамен', assessment, flags=re.IGNORECASE):
+        course_info['assessment'] = assessment
     course_info['has_course_plan'] = sections.get('План курса', None) is not None or sections.get('Программа курса', None) is not None
     course_info['course_leader'] = find_field(content, sections, r'Руководител[ьи]\s+курса')
     course_info['contacts'] = find_contacts(content)
@@ -123,5 +126,28 @@ def create_course_info_json():
 
     with open('courses_info.json', 'w', encoding='utf-8') as f:
         json.dump(courses_info, f, ensure_ascii=False, indent=4)
+    return courses_info
 
-create_course_info_json()
+
+def count_missing_values(courses_info):
+    missing_counts = {}
+
+    for course_info in courses_info.values():
+        for key in course_info:
+            missing_counts[key] = 0
+
+    for course_info in courses_info.values():
+        for key in missing_counts:
+            if course_info.get(key) is None:
+                missing_counts[key] += 1
+
+    total = len(courses_info)
+    with open('missing_values_stats.txt', 'w', encoding='utf-8') as file:
+        file.write(f'Всего курсов: {total}\n\n')
+        for key, count in missing_counts.items():
+            file.write(f'{key}: заполнено {total - count}, пропусков {count}\n')
+
+    return missing_counts
+
+courses_info = create_course_info_json()
+count_missing_values(courses_info)
