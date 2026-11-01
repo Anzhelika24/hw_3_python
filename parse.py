@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import json
 import re
+from pathlib import Path 
 
 def parse_html_file(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
@@ -13,6 +14,8 @@ filename = (
     "courses_2025_2026/"
     "Применение Python в статистическом анализе данных_Осень_2026.html"
 )
+
+
 
 soup = parse_html_file(filename)
 content = soup.find(attrs={"class": "mw-parser-output"})
@@ -60,7 +63,7 @@ def counting_homeworks(content):
     r'(?:запланировано|всего)\s+домашних\s+заданий\s*[:—–-]?\s*(\d+)',
 ]
     for pattern in patterns:
-        match = re.search(pattern, content.text)
+        match = re.search(pattern, content.text, flags=re.IGNORECASE)
         if match:
             return int(match.group(1))
     return None
@@ -83,6 +86,14 @@ def create_dict_for_course_info(soup):
 
 course_info = create_dict_for_course_info(soup)
 
-with open('python_course_info.json', 'w', encoding='utf-8') as f:
-    json.dump(course_info, f, ensure_ascii=False, indent=4)
+def create_course_info_json():
+    courses_info = {}
+    for file_path in Path('courses_2025_2026').iterdir():
+        soup = parse_html_file(file_path)
+        course_info = create_dict_for_course_info(soup)
+        courses_info.append(course_info)
+
+    with open('courses_info.json', 'w', encoding='utf-8') as f:
+        json.dump(courses_info, f, ensure_ascii=False, indent=4)
+        
 
