@@ -196,8 +196,25 @@ def count_missing_values(courses_info):
 courses_info = create_course_info_json()
 count_missing_values(courses_info)
 
-with open('courses_info.json', 'r', encoding='utf-8') as f:
-    courses_info = json.load(f)
-    for file_path, course_info in courses_info.items():
-        if course_info['has_projects'] is not None:
-            print(f"{course_info['url']}: {course_info['has_projects']}")
+def create_anti_top(courses_info):
+    anti_top = {}
+    for course_info in courses_info.values():
+        missing_count = 0
+        fields = course_info.keys()
+        for field in fields:
+            if course_info.get(field) is None:
+                missing_count += 1
+        anti_top[course_info['title']] = missing_count
+    anti_top_sorted = sorted(anti_top.values(), reverse=True)
+    with open('anti_top.txt', 'w', encoding='utf-8') as file:
+        for i in range(10):
+            for key, value in anti_top_sorted.items():
+                file.write(f'{key}: {value}\n')
+
+create_anti_top(courses_info)
+
+# with open('courses_info.json', 'r', encoding='utf-8') as f:
+#     courses_info = json.load(f)
+#     for file_path, course_info in courses_info.items():
+#         if course_info['has_projects'] is not None:
+#             print(f"{course_info['url']}: {course_info['has_projects']}")
