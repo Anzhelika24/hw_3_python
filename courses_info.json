@@ -501,15 +501,15 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/obvallata",
-            "https://t.me/divanlitva",
-            "https://t.me/+kSg2lDTpeRY1YmNi",
             "https://t.me/shapkapavel",
-            "https://t.me/glhfuck",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/obvallata",
             "https://t.me/dvinyatinfedor",
             "https://t.me/sshuron",
-            "https://t.me/atpfpmi_curators",
             "https://t.me/tsmax2004",
+            "https://t.me/glhfuck",
+            "https://t.me/+kSg2lDTpeRY1YmNi",
+            "https://t.me/divanlitva",
             "https://t.me/loreAdopt"
         ],
         "homework_count": 11,
@@ -755,10 +755,10 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "yakusheva.sf@phystech.edu",
             "smolkina.iua@phystech.edu",
-            "https://t.me/+f1EF4ocv63JlOWQy",
+            "yakusheva.sf@phystech.edu",
             "https://t.me/+BLMHzOvg5xpiMzUy",
+            "https://t.me/+f1EF4ocv63JlOWQy",
             "https://t.me/+4qMcvGbxeq0zNWMy"
         ],
         "homework_count": null,
@@ -812,7 +812,7 @@
         "title": "АКОС II Lite весна 2025",
         "assessment": "дифференцированный зачет",
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "1. Операционная система Linux",
         "has_contacts": true,
         "contacts": [
             "https://t.me/+Zty22NvfNGJlYWQy"
@@ -1660,7 +1660,7 @@
         "title": "Современные компьютерные сети 2025",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Изучить протокол ВМР для сбора сontrol-plane телеметрии, сделав его практическую имплементацию.",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
@@ -1798,21 +1798,21 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/s_chesnokoff",
+            "https://t.me/onepathq",
+            "https://t.me/int_main_int",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/AlexOEJ",
+            "https://t.me/taekwandodo",
             "https://t.me/fanastasiiaf",
             "https://t.me/Popadosych",
-            "https://t.me/taekwandodo",
-            "https://t.me/+IML2UmP5IbNkMWJi",
-            "https://t.me/EntityResult",
-            "https://t.me/konstantin_galperin",
-            "https://t.me/pyrrrolidine",
-            "https://t.me/onepathq",
-            "https://t.me/AlexOEJ",
             "https://t.me/juletats",
-            "https://t.me/int_main_int",
-            "https://t.me/ivan_ponomarev",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/maryrubik"
+            "https://t.me/EntityResult",
+            "https://t.me/pyrrrolidine",
+            "https://t.me/konstantin_galperin",
+            "https://t.me/+IML2UmP5IbNkMWJi",
+            "https://t.me/maryrubik",
+            "https://t.me/s_chesnokoff",
+            "https://t.me/ivan_ponomarev"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -1870,8 +1870,8 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/+tvtBcWrDSgVmYzEy",
-            "https://t.me/atpfpmi_curators"
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/+tvtBcWrDSgVmYzEy"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -1932,13 +1932,13 @@
         "course_leader": "Fullstack на Python\nНагайко Иван Игоревич (руководитель курса) @Nagaiko_Ivan\nПротасов Антон Андреевич @antprts\nFrontend\nКузнецов Владимир Сергеевич @grandrust\nBackend на Java\nБашкатов Алексей @asbashkatov\nBackend на Go\nБуров Никита @burov_na\n\n\nКонтакт для организационных вопросов\nКуратор курса @atpfpmi_curators",
         "has_contacts": true,
         "contacts": [
-            "https://t.me/Nagaiko_Ivan",
-            "https://t.me/+DYhkiivtfy8xNTZi",
-            "https://t.me/grandrust",
-            "https://t.me/asbashkatov",
-            "https://t.me/burov_na",
             "https://t.me/atpfpmi_curators",
-            "https://t.me/antprts"
+            "https://t.me/Nagaiko_Ivan",
+            "https://t.me/asbashkatov",
+            "https://t.me/grandrust",
+            "https://t.me/burov_na",
+            "https://t.me/antprts",
+            "https://t.me/+DYhkiivtfy8xNTZi"
         ],
         "homework_count": 8,
         "is_parsed": true,
@@ -2160,8 +2160,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/sekretar_atp",
-            "https://t.me/+GwMzsq589jJkYjgy"
+            "https://t.me/+GwMzsq589jJkYjgy",
+            "https://t.me/sekretar_atp"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -2194,8 +2194,8 @@
         "course_leader": "Никита Честнов (@nchestnov) - продвинутый поток",
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+OlzOGM6xcwYxYTAy",
-            "https://t.me/atpfpmi_curators"
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/+OlzOGM6xcwYxYTAy"
         ],
         "homework_count": 5,
         "is_parsed": true,
@@ -2563,16 +2563,16 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/vmarunin",
-            "https://t.me/obvallata",
             "https://t.me/onepathq",
-            "https://t.me/shapkapavel",
-            "https://t.me/glhfuck",
-            "https://t.me/rud_yandex",
-            "https://t.me/+oV7SE5C92w44ODIy",
-            "https://t.me/sshuron",
             "https://t.me/atpfpmi_curators",
+            "https://t.me/+oV7SE5C92w44ODIy",
+            "https://t.me/obvallata",
+            "https://t.me/vmarunin",
+            "https://t.me/sshuron",
             "https://t.me/tsmax2004",
+            "https://t.me/glhfuck",
+            "https://t.me/shapkapavel",
+            "https://t.me/rud_yandex",
             "https://t.me/loreAdopt"
         ],
         "homework_count": 11,
@@ -2693,7 +2693,7 @@
         "title": "ИВТ. Практикум по объектно-ориентированному программированию. Продвинутый поток весна 2026",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Дединский Илья Рудольфович",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -2818,8 +2818,8 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/+KHIM4QIa930yNGMy"
+            "https://t.me/+KHIM4QIa930yNGMy",
+            "https://t.me/atpfpmi_curators"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -2883,10 +2883,10 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/+Jod4vZUGoRxkNDgy",
             "https://t.me/ftopsg",
             "https://t.me/atpfpmi_curators",
-            "https://t.me/Rybchits"
+            "https://t.me/Rybchits",
+            "https://t.me/+Jod4vZUGoRxkNDgy"
         ],
         "homework_count": 12,
         "is_parsed": true,
@@ -2933,14 +2933,14 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/EntityResult",
+            "https://t.me/atpfpmi_curators",
             "https://t.me/dfs_dima",
-            "https://t.me/Popadosych",
-            "https://t.me/lvanan",
             "https://t.me/AlexOEJ",
+            "https://t.me/Popadosych",
+            "https://t.me/EntityResult",
             "https://t.me/+7ZCOoyBjE_JiNGEy",
-            "https://t.me/ivan_ponomarev",
-            "https://t.me/atpfpmi_curators"
+            "https://t.me/lvanan",
+            "https://t.me/ivan_ponomarev"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -3100,8 +3100,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/sekretar_atp",
-            "https://t.me/+GwMzsq589jJkYjgy"
+            "https://t.me/+GwMzsq589jJkYjgy",
+            "https://t.me/sekretar_atp"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -3358,7 +3358,7 @@
         "title": "Программирование на языке C++. Продвинутый поток 2026",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Мещерин Илья",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -3381,7 +3381,7 @@
         "title": "Программирование на языке C++. (односеместровый) 2026",
         "assessment": "Дифференцированный зачёт",
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Виденин Сергей Александрович",
         "has_contacts": true,
         "contacts": [
             "https://t.me/+8AWYEeSgSKMzMDk6"
@@ -3433,7 +3433,7 @@
         "title": "Алгоритмы и структуры данных I. Базовый поток 2026",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Никулов Сергей.",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -3536,7 +3536,7 @@
         "title": "ИВТ. Алгоритмы и структуры данных. Базовый поток 2026",
         "assessment": "дифференцированный зачёт",
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Дивари Ирина Николаевна",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -3706,7 +3706,7 @@
         "title": "Архитектура компьютеров и операционные системы 2026",
         "assessment": "дифференцированный зачёт",
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Андреев Александр Николаевич",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -3735,21 +3735,21 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/EntityResult",
             "https://t.me/dfs_dima",
             "https://t.me/allaberenov_k",
-            "https://t.me/konstantin_galperin",
-            "https://t.me/vvk101",
-            "https://t.me/karmaxxkomao",
             "https://t.me/LianaTiholese",
-            "https://t.me/AlexOEJ",
-            "https://t.me/juletats",
-            "https://t.me/+OEx0KtMojLwwZmE6",
-            "https://t.me/RBlazhko",
-            "https://t.me/ivan_ponomarev",
-            "https://t.me/",
             "https://t.me/valeriia_krup",
-            "https://t.me/maryrubik"
+            "https://t.me/AlexOEJ",
+            "https://t.me/",
+            "https://t.me/+OEx0KtMojLwwZmE6",
+            "https://t.me/EntityResult",
+            "https://t.me/juletats",
+            "https://t.me/RBlazhko",
+            "https://t.me/vvk101",
+            "https://t.me/konstantin_galperin",
+            "https://t.me/maryrubik",
+            "https://t.me/karmaxxkomao",
+            "https://t.me/ivan_ponomarev"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -3878,7 +3878,7 @@
         "title": "ИВТ.Программирование на языке C++ 2026 Продвинутый поток",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Дединский Илья Рудольфович",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -4029,14 +4029,14 @@
         "course_leader": "Fullstack на Python\nНагайко Иван Игоревич (руководитель курса) @Nagaiko_Ivan\nПротасов Антон Андреевич @antprts\nFrontend\nКузнецов Владимир Сергеевич @grandrust\nBackend на Java\nБашкатов Алексей @asbashkatov\nBackend на Go\nБуров Никита @burov_na\n\n\nКонтакт для организационных вопросов\nКуратор от кафедры @LianaTiholese\nКрупильницкая Валерия (организатор) @valeriia_krup",
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+qwmduC3nVE01MmRi",
             "https://t.me/Nagaiko_Ivan",
             "https://t.me/LianaTiholese",
-            "https://t.me/grandrust",
-            "https://t.me/asbashkatov",
-            "https://t.me/burov_na",
             "https://t.me/valeriia_krup",
-            "https://t.me/antprts"
+            "https://t.me/asbashkatov",
+            "https://t.me/grandrust",
+            "https://t.me/burov_na",
+            "https://t.me/antprts",
+            "https://t.me/+qwmduC3nVE01MmRi"
         ],
         "homework_count": 8,
         "is_parsed": true,
@@ -4064,11 +4064,11 @@
         "title": "Робастные методы в математической статистике 2026",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": "Piazza",
+        "course_leader": "д.ф.-м.н., профессор Цитович Иван Иванович",
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+HSwiiCpvORRkMzli",
-            "https://t.me/+_q3FmrVowPoxY2Iy"
+            "https://t.me/+_q3FmrVowPoxY2Iy",
+            "https://t.me/+HSwiiCpvORRkMzli"
         ],
         "homework_count": 2,
         "is_parsed": true,
@@ -4383,8 +4383,8 @@
         "course_leader": "Влад Шахуро (@VladShakhuro)",
         "has_contacts": true,
         "contacts": [
-            "https://t.me/VladShakhuro",
-            "https://t.me/ruroruro"
+            "https://t.me/ruroruro",
+            "https://t.me/VladShakhuro"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -4445,12 +4445,12 @@
         "course_leader": "Никита Честнов (@nchestnov) - продвинутый поток",
         "has_contacts": true,
         "contacts": [
-            "https://t.me/Ewsey",
-            "https://t.me/+HUjyejSRipc3NWY6",
             "https://t.me/LianaTiholese",
+            "https://t.me/valeriia_krup",
+            "https://t.me/+HUjyejSRipc3NWY6",
             "https://t.me/OspanovAlen",
             "https://t.me/fokit26",
-            "https://t.me/valeriia_krup"
+            "https://t.me/Ewsey"
         ],
         "homework_count": 5,
         "is_parsed": true,
