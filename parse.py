@@ -29,14 +29,16 @@ def extract_sections(content):
         parts = []
         for neighbour in heading.find_next_siblings():
             if neighbour.name in heading_tags:
-                if neighbour.name[1] >= heading.name[1]:
+                if neighbour.name[1] <= heading.name[1]:
                     break
             parts.append(neighbour.text)
         sections[section_name] = '\n'.join(parts).strip()
     return sections
 
 json_sections = extract_sections(content)
-json.dump(json_sections, open('python_course_sections.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
+
+with open('python_course_sections.json', 'w', encoding='utf-8') as f:
+    json.dump(json_sections, f, ensure_ascii=False, indent=4)
 
 
 
