@@ -142,7 +142,8 @@ def create_dict_for_course_info(soup):
     if course_info['course_leader'] is None:
         course_info['course_leader'] = find_field(content, sections, r'Лектор')
     if course_info['course_leader'] is None:
-        course_info['course_leader'] = find_field(content, sections, r'Преподаватель')
+        course_info['course_leader'] = find_field(content, sections, r'Преподавател[ьи]')
+
     course_info['contacts'] = find_contacts(content)
     course_info['has_contacts'] = bool(course_info['contacts'])
     course_info['homework_count'] = get_number_homeworks_by_counting_matches(content)
