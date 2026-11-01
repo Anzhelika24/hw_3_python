@@ -109,10 +109,6 @@ def take_unique_adresses(courses):
             else:
                 unique_adresses[course_url] = f"{course_name.strip()}_{suffix}"
     return unique_adresses
-
-courses = collect_courses(soup, domain)
-unique_adresses = take_unique_adresses(courses)
-download_courses_pages(unique_adresses)
         
 
 with open('headlines.txt', 'w', encoding='utf_8') as file:
@@ -121,3 +117,7 @@ with open('headlines.txt', 'w', encoding='utf_8') as file:
         for course_url, name_course in semester_courses.items():
             file.write(f'{name_course}: {course_url}' + '\n')
 
+if __name__ == "__main__":
+    courses = collect_courses(soup, domain)
+    unique_adresses = take_unique_adresses(courses)
+    download_courses_pages(unique_adresses)
