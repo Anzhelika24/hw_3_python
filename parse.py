@@ -169,29 +169,6 @@ def create_course_info_json():
     return courses_info
 
 
-def count_missing_values(courses_info):
-    missing_counts = {}
-
-    for course_info in courses_info.values():
-        for key in course_info:
-            missing_counts[key] = 0
-
-    for course_info in courses_info.values():
-        for key in missing_counts:
-            if course_info.get(key) is None:
-                missing_counts[key] += 1
-
-    total = len(courses_info)
-    with open('missing_values_stats.txt', 'w', encoding='utf-8') as file:
-        file.write(f'Всего курсов: {total}\n\n')
-        for key, count in missing_counts.items():
-            file.write(f'{key}: заполнено {total - count}, пропусков {count}\n')
-
-    return missing_counts
-
-courses_info = create_course_info_json()
-count_missing_values(courses_info)
-
 def create_anti_top(courses_info):
     anti_top = {}
     sorted_by_length_courses = sorted(courses_info.values(), key=lambda course: len(course.get('full_text', '')))
@@ -210,10 +187,5 @@ def create_anti_top(courses_info):
         for key, value in anti_top_sorted[:50]:
             file.write(f'{key}: {value}\n')
 
+courses_info = create_course_info_json()
 create_anti_top(courses_info)
-
-# with open('courses_info.json', 'r', encoding='utf-8') as f:
-#     courses_info = json.load(f)
-#     for file_path, course_info in courses_info.items():
-#         if course_info['has_projects'] is not None:
-#             print(f"{course_info['url']}: {course_info['has_projects']}")
