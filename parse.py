@@ -105,7 +105,7 @@ def find_projects(content):
     for line in text.splitlines():
         if re.search(pattern, line, flags=re.IGNORECASE) and not re.search(r'не\s+предусмотрен\w*|не\s+будет|\bнет\b', line, flags=re.IGNORECASE):
             return True
-    return False
+    return None
 
 
     
