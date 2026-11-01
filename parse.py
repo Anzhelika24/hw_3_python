@@ -211,7 +211,7 @@ def create_anti_top(courses_info):
         anti_top[course_info['url']] = missing_count
     anti_top_sorted = sorted(anti_top.items(), key=lambda pair: pair[1], reverse=True)
     with open('anti_top.txt', 'w', encoding='utf-8') as file:
-        for key, value in anti_top_sorted[:10]:
+        for key, value in anti_top_sorted[:30]:
             file.write(f'{key}: {value}\n')
 
 create_anti_top(courses_info)
