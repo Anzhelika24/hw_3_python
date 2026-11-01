@@ -1,0 +1,1840 @@
+{
+    "courses_2025_2026/Функциональные языки программирования_Весна_2025.html": {
+        "title": "Функциональные языки программирования весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Объектно-ориентированное программирование C++ Продвинутый поток_Осень_2026.html": {
+        "title": "ИВТ.Программирование на языке C++ 2026 Продвинутый поток",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Современные методы разработки программных продуктов с помощью методов искусственного интеллекта_Осень_2026.html": {
+        "title": "Современные методы разработки программных продуктов с помощью методов искусственного интеллекта",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "akhtyamov@phystech.edu",
+            "https://t.me/+ywvmwhtUG-syMTUy",
+            "https://t.me/+X2zKWmmr7gg2Nzgy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Практикум по объектно-ориентированному программированию. Продвинутый поток_Весна_2025.html": {
+        "title": "ИВТ. Практикум по объектно-ориентированному программированию. Продвинутый поток весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на Java_Весна_2025.html": {
+        "title": "Программирование на Java весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Технологии программирования и операционные системы. 2026_Осень_2026.html": {
+        "title": "Технологии программирования и операционные системы. 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+HUjyejSRipc3NWY6",
+            "https://t.me/fokit26",
+            "https://t.me/OspanovAlen",
+            "https://t.me/LianaTiholese",
+            "https://t.me/valeriia_krup",
+            "https://t.me/Ewsey"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Автоматизация программирования_Весна_2025.html": {
+        "title": "Автоматизация программирования весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Промышленное программирование на языке Java_Осень_2026.html": {
+        "title": "Промышленное программирование на языке Java 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/+OEx0KtMojLwwZmE6",
+            "https://t.me/ivan_ponomarev",
+            "https://t.me/vvk101",
+            "https://t.me/maryrubik",
+            "https://t.me/juletats",
+            "https://t.me/karmaxxkomao",
+            "https://t.me/RBlazhko",
+            "https://t.me/EntityResult",
+            "https://t.me/allaberenov_k",
+            "https://t.me/LianaTiholese",
+            "https://t.me/valeriia_krup",
+            "https://t.me/konstantin_galperin",
+            "https://t.me/AlexOEJ",
+            "https://t.me/dfs_dima",
+            "https://t.me/"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Хранение и обработка больших объёмов данных_Весна_2026.html": {
+        "title": "Хранение и обработка больших объёмов данных весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/+KR6lGaiw_Pk1OTZi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Иностранный поток_Весна_2025.html": {
+        "title": "Программирование на языке C++. Иностранный поток весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Тюков Марк",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Python_Осень_2026.html": {
+        "title": "Python 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Основы непрерывной интеграции. DevOps_Весна_2025.html": {
+        "title": "Основы непрерывной интеграции. DevOps весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Data Structures and Algorithms III_Весна_2025.html": {
+        "title": "Data Structures and Algorithms III весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+mCSV9ZbVbuQ0ZDcx"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/АКОС. Базовый курс_Осень_2025.html": {
+        "title": "АКОС. Базовый курс осень 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+e7rYD9f8-Hc1MGI6"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Основы непрерывной интеграции (DevOps)_Весна_2025.html": {
+        "title": "Основы непрерывной интеграции (DevOps) весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+_Lp7nzTXAfswZjUy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных I. Иностранный поток_Осень_2026.html": {
+        "title": "Алгоритмы и структуры данных III. Иностранный поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/АКОС II_Весна_2025.html": {
+        "title": "АКОС II весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+CS4a4rDq9DUxNzcy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Workshop on Software Development_Весна_2025.html": {
+        "title": "Workshop on Software Development весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+2MXgd4HNmshiYjcy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Машинное обучение на больших объемах данных_Осень_2025.html": {
+        "title": "Машинное обучение на больших объемах данных 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+Myk2VWJh1npmN2My"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Современные методы разработки программных продуктов с помощью методов искусственного интеллекта 2026_Осень_2026.html": {
+        "title": "Современные методы разработки программных продуктов с помощью методов искусственного интеллекта 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "akhtyamov@phystech.edu",
+            "https://t.me/+ywvmwhtUG-syMTUy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Робастные методы в математической статистике_Осень_2026.html": {
+        "title": "Робастные методы в математической статистике 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+_q3FmrVowPoxY2Iy",
+            "https://t.me/+HSwiiCpvORRkMzli"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных II. Иностранный поток_Весна_2026.html": {
+        "title": "Алгоритмы и структуры данных II. Иностранный поток весна 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/ads_foreings"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Устройство ядра Linux (НОВ)_Осень_2026.html": {
+        "title": "Устройство ядра Linux (НОВ) 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Основы лидерства и управление высокоэффективными командами_Весна_2025.html": {
+        "title": "Основы лидерства и управление высокоэффективными командами весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+_81CinnwilFjMDli"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Формальные языки и трансляции Иностранный поток_Осень_2025.html": {
+        "title": "Формальные языки и трансляции 2025 Иностранный поток",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Технологии программирования_Весна_2026.html": {
+        "title": "ТП весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/taekwandodo"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Практикум Python_Весна_2026.html": {
+        "title": "Практикум Python весна 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Современные технологии разработки сервисов анализа данных_Весна_2026.html": {
+        "title": "Современные технологии разработки сервисов анализа данных весна 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Языки программирования и теория компиляции_Весна_2025.html": {
+        "title": "Языки программирования и теория компиляции весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на Rust_Весна_2025.html": {
+        "title": "Программирование на Rust весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+sf2FAn5Rs6U4MTdi",
+            "https://t.me/DBarinovv"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Workshop on Software Development_Осень_2026.html": {
+        "title": "Workshop on Software Development 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+H7-BlcDGvYQ5YTRi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Введение в идиоматический Котлин_Весна_2025.html": {
+        "title": "Введение в идиоматический Котлин весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": "Александр Нозик\n\nДиректор Центра Научного Программирования МФТИ,\nGoogle Developer Expert по Kotlin\n(ex) руководитель направления в JetBrains Research.\nСпециалист по разработке на JVM платформах, архитектуре научного программного обеспечения и анализу данных",
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/kotlin_mipt"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных I. Основной поток_Осень_2025.html": {
+        "title": "Алгоритмы и структуры данных I. Основной поток 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Илья Степанов",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Базы данных_Весна_2026.html": {
+        "title": "Базы данных весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "yakusheva.sf@phystech.edu",
+            "https://t.me/+hwd7Ns36t2w5ZTgy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Сбор, подготовка и разметка данных_Весна_2025.html": {
+        "title": "Сбор, подготовка и разметка данных весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Основы лидерства и управление высокоэффективными командами_Осень_2026.html": {
+        "title": "Основы лидерства и управление высокоэффективными командами 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+8rO4qslGmmFiNTFi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/АКОС (для Blockchain)_Весна_2026.html": {
+        "title": "АКОС (для Blockchain) весна 2026",
+        "assessment": "Формат: дистанционный\nФорма контроля: дифференцированный зачет",
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Практикум Python. Продвинутый поток_Осень_2025.html": {
+        "title": "Практикум Python. Продвинутый поток 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": "Спицын Николай (tg: @Jetminded)",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/ПМИинф. Современные компьютерные сети_Осень_2026.html": {
+        "title": "ПМИ Современные компьютерные сети 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "podlesnykh.da@mipt.ru",
+            "https://t.me/+GVZtDFWz1MI1MTky"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы на дискретных структурах данных_Весна_2026.html": {
+        "title": "Алгоритмы на дискретных структурах данных весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+-DyDJhjRKvoyNDFi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Формальные языки и трансляции (вместе со вторым курсом)_Осень_2026.html": {
+        "title": "Формальные языки и трансляции 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Operating Systems I_Осень_2026.html": {
+        "title": "Operating Systems I 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "podlesnykh.da@mipt.ru"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Практикум Python. Базовый поток_Осень_2025.html": {
+        "title": "Практикум Python. Базовый поток 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Спицын Николай (tg: @Jetminded)",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Параллельные и распределенные вычисления_Осень_2026.html": {
+        "title": "Параллельные и распределенные вычисления 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/LianaTiholese",
+            "https://t.me/+_edIChPko9EzODli"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Разработка на Android_Весна_2025.html": {
+        "title": "Разработка на Android весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/fisic_from_fivt"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Операционные системы (курс по выбору. Вместе с АКОС)_Осень_2026.html": {
+        "title": "Архитектура компьютеров и операционные системы 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Разработки на Flutter_Весна_2026.html": {
+        "title": "Разработки на Flutter весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/ftopsg",
+            "https://t.me/+Jod4vZUGoRxkNDgy",
+            "https://t.me/Rybchits"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/История и методология информатики и вычислительной техники_Весна_2025.html": {
+        "title": "История и методология информатики и вычислительной техники весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+B3g43yhi3Ak5MDUy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Организация проведения и оформления результатов НИР_Осень_2026.html": {
+        "title": "Организация проведения и оформления результатов НИР 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "yakusheva.sf@phystech.edu",
+            "https://t.me/+A9BW66ulYvw1MDYy"
+        ],
+        "homework_count": 7
+    },
+    "courses_2025_2026/Применение Python в статистическом анализе данных_Осень_2026.html": {
+        "title": "Применение Python в статистическом анализе данных 2026",
+        "assessment": "дифф. зачет",
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "python4da@yandex.ru",
+            "https://t.me/+syubUCT4cUc5MGY6"
+        ],
+        "homework_count": 6
+    },
+    "courses_2025_2026/Databases_Весна_2025.html": {
+        "title": "Databases весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "yakusheva.sf@phystech.edu",
+            "smolkina.iua@phystech.edu",
+            "https://t.me/+f1EF4ocv63JlOWQy",
+            "https://t.me/+BLMHzOvg5xpiMzUy",
+            "https://t.me/+4qMcvGbxeq0zNWMy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Технологии программирования и операционные системы. 2025_Осень_2025.html": {
+        "title": "Технологии программирования и операционные системы. 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+OlzOGM6xcwYxYTAy",
+            "https://t.me/atpfpmi_curators"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Методы реализации алгоритмов_Весна_2025.html": {
+        "title": "Методы реализации алгоритмов весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+SyKn4udNZw1lYWYy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Foreign students. Data Structures and Algorithms I_Весна_2025.html": {
+        "title": "Foreign students. Data Structures and Algorithms I 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+9t8KrAtjYwA2YzEy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Параллельные и распределенные вычисления_Весна_2025.html": {
+        "title": "Параллельные и распределенные вычисления весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/+3s6XjCzFlaYxMzIy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных II. Продвинутый поток_Весна_2025.html": {
+        "title": "Алгоритмы и структуры данных II. Продвинутый поток весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Машинное обучение на практике_Весна_2025.html": {
+        "title": "Машинное обучение на практике весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+PxdThaEu48JlM2Qy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Анализ изображений_Осень_2026.html": {
+        "title": "Анализ изображений 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/ruroruro",
+            "https://t.me/VladShakhuro"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Разработка и анализ алгоритмов_Весна_2026.html": {
+        "title": "ИВТ. Разработка и анализ алгоритмов весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+79xMH16hnIU5MTFi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Основной поток (Сергей Виденин)_Весна_2026.html": {
+        "title": "Программирование на языке C++. Основной поток весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Виденин Сергей Александрович (@VideninSerg)",
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/CPP_2sem"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Основной поток_Осень_2025.html": {
+        "title": "Программирование на языке C++. Основной поток 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Павел Попов",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Автоматическая обработка естественного языка_Осень_2026.html": {
+        "title": "Автоматическая обработка естественного языка осень 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+q7zpu7t88js1ZWJi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Формальные языки и трансляции Основной поток_Осень_2025.html": {
+        "title": "Формальные языки и трансляции 2025 Основной поток",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Продвинутый поток_Осень_2025.html": {
+        "title": "Программирование на языке C++. Продвинутый поток 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Рухович Филипп",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных II. Основной поток_Весна_2025.html": {
+        "title": "Алгоритмы и структуры данных II. Основной поток весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Степанов Илья",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Алгоритмы обработки строк и теории чисел_Весна_2026.html": {
+        "title": "ИВТ. Алгоритмы обработки строк и теории чисел весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+d5W6x0-N-kU4ODhi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Алгоритмы и структуры данных. Базовый поток_Осень_2026.html": {
+        "title": "ИВТ. Алгоритмы и структуры данных. Базовый поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Проектирование программных систем_Осень_2025.html": {
+        "title": "Проектирование программных систем 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Хританков Антон Сергеевич, https://objectoriented.ru/me:research",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/От специалиста к руководителю: как управлять проектами, людьми и изменениями_Осень_2026.html": {
+        "title": "От специалиста к руководителю: как управлять проектами, людьми и изменениями 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "http://https%20://t.me/+C63lq1x3r-xiMzFi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Безопасность облачных продуктов_Весна_2025.html": {
+        "title": "Безопасность облачных продуктов весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "cloud-security@shanton.ru"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/НИС_Весна_2025.html": {
+        "title": "НИС весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+HcIxFrp0liYyNjcy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Базовый поток_Осень_2026.html": {
+        "title": "Программирование на языке C++. Базовый поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на Go_Весна_2026.html": {
+        "title": "Программирование на Go весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/vmarunin",
+            "https://t.me/tsmax2004",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/onepathq",
+            "https://t.me/+oV7SE5C92w44ODIy",
+            "https://t.me/shapkapavel",
+            "https://t.me/sshuron",
+            "https://t.me/obvallata",
+            "https://t.me/glhfuck",
+            "https://t.me/rud_yandex",
+            "https://t.me/loreAdopt"
+        ],
+        "homework_count": 11
+    },
+    "courses_2025_2026/Автоматическая обработка естественного языка_Весна_2025.html": {
+        "title": "Автоматическая обработка естественного языка весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+OgLIXw1m5zkzOGI6"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Архитектура вычислительных систем и языки ассемблера_Весна_2026.html": {
+        "title": "ИВТ. Архитектура вычислительных систем и языки ассемблера весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Продвинутый поток_Весна_2026.html": {
+        "title": "Программирование на языке C++. Продвинутый поток весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Илья Мещерин",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Технологии программирования на Java_Весна_2026.html": {
+        "title": "Технологии программирования на Java весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/ivan_ponomarev",
+            "https://t.me/+7ZCOoyBjE_JiNGEy",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/dfs_dima",
+            "https://t.me/EntityResult",
+            "https://t.me/Popadosych",
+            "https://t.me/AlexOEJ",
+            "https://t.me/lvanan"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных II. Базовый поток_Весна_2025.html": {
+        "title": "Алгоритмы и структуры данных II. Базовый поток весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Ибрагимов Булат",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/ХОБОД Альфа и МТС_Осень_2026.html": {
+        "title": "ХОБОД Альфа 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/+5KZGSfvbA3swMWUy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы на графах и динамическое программирование_Осень_2025.html": {
+        "title": "Алгоритмы на графах и динамическое программирование 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных I. Базовый поток_Осень_2025.html": {
+        "title": "Алгоритмы и структуры данных I. Базовый поток 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Сергей Никулов",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Full-stack разработка_Осень_2026.html": {
+        "title": "Full-stack разработка 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/Nagaiko_Ivan",
+            "https://t.me/grandrust",
+            "https://t.me/+qwmduC3nVE01MmRi",
+            "https://t.me/burov_na",
+            "https://t.me/antprts",
+            "https://t.me/LianaTiholese",
+            "https://t.me/valeriia_krup",
+            "https://t.me/asbashkatov"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Автоматическая обработка естественного языка_Весна_2026.html": {
+        "title": "Автоматическая обработка естественного языка весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+fTdiA1xmrtk5Mjky"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на Go_Весна_2025.html": {
+        "title": "Программирование на Go весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/dvinyatinfedor",
+            "https://t.me/tsmax2004",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/+kSg2lDTpeRY1YmNi",
+            "https://t.me/shapkapavel",
+            "https://t.me/sshuron",
+            "https://t.me/divanlitva",
+            "https://t.me/obvallata",
+            "https://t.me/glhfuck",
+            "https://t.me/loreAdopt"
+        ],
+        "homework_count": 11
+    },
+    "courses_2025_2026/Программирование на языке C++. Базовый поток_Осень_2025.html": {
+        "title": "Программирование на языке C++. Базовый поток 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Ибрагимов Булат",
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+uRYRb-UeG2swNWUy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Основной поток_Весна_2025.html": {
+        "title": "Программирование на языке C++. Основной поток весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Мещерин Илья",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных III. Основной поток_Осень_2026.html": {
+        "title": "Алгоритмы и структуры данных III. Основной поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Высоконадёжные вычисления и системы реального времени_Осень_2025_Осень_2026.html": {
+        "title": "Высоконадёжные вычисления и системы реального времени",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+f6FXcwarto1kYzFi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/РЭШ. Наука о данных. Python и R_Весна_2025.html": {
+        "title": "РЭШ. Наука о данных. Python и R 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": "Спицын Николай",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Продвинутый поток_Весна_2025.html": {
+        "title": "Программирование на языке C++. Продвинутый поток весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Мещерин Илья",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Архитектура вычислительных систем и языки ассемблера_Весна_2025.html": {
+        "title": "ИВТ. Архитектура вычислительных систем и языки ассемблера весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Теория языков программирования_Весна_2025.html": {
+        "title": "Теория языков программирования весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных II. Базовый поток_Весна_2026.html": {
+        "title": "Алгоритмы и структуры данных II. Базовый поток весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Ибрагимов Булат",
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+uRYRb-UeG2swNWUy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Технологии программирования на Java_Весна_2025.html": {
+        "title": "Технологии программирования на Java весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/+hzegsU6QX2A5ODcy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы на дискретных структурах данных (ШАД) 2026_Осень_2026.html": {
+        "title": "Алгоритмы на дискретных структурах данных (ШАД) 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+1T4-mpzPBjE3NjE6"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Объектно-ориентированное программирование на языке C++ Основной поток_Осень_2026.html": {
+        "title": "ИВТ. Объектно-ориентированное программирование C++ 2026 Основной поток",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных I. Базовый поток_Осень_2026.html": {
+        "title": "Алгоритмы и структуры данных I. Базовый поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Parallel and Disrtibuted Computing I_Осень_2026.html": {
+        "title": "Parallel and Disrtibuted Computing I 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Full-stack разработка_Осень_2025.html": {
+        "title": "Full-stack разработка 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/Nagaiko_Ivan",
+            "https://t.me/grandrust",
+            "https://t.me/burov_na",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/antprts",
+            "https://t.me/+DYhkiivtfy8xNTZi",
+            "https://t.me/asbashkatov"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Анализ изображений_Осень_2025.html": {
+        "title": "Анализ изображений 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/ruroruro"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Машинное обучение на практике_Весна_2026.html": {
+        "title": "Машинное обучение на практике весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+eyR9FKWfAPBjOTYy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Разработка и анализ алгоритмов_Весна_2025.html": {
+        "title": "ИВТ. Разработка и анализ алгоритмов весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Практикум по объектно-ориентированному программированию. Базовый поток_Весна_2025.html": {
+        "title": "ИВТ. Практикум по объектно-ориентированному программированию. Базовый поток весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/НИС_Осень_2025.html": {
+        "title": "НИС 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/sekretar_atp",
+            "https://t.me/+GwMzsq589jJkYjgy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Продвинутый поток_Осень_2026.html": {
+        "title": "Программирование на языке C++. Продвинутый поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Современные компьютерные сети_Осень_2025.html": {
+        "title": "Современные компьютерные сети 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/+8tH5NOli_MIwY2My"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Алгоритмы обработки строк и теории чисел_Весна_2025.html": {
+        "title": "ИВТ. Алгоритмы обработки строк и теории чисел весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных II. Основной поток_Весна_2026.html": {
+        "title": "Алгоритмы и структуры данных II. Основной поток весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Илья Степанов",
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/ads_general2025"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Проектирование программных систем_Осень_2026.html": {
+        "title": "Проектирование программных систем 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Хританков Антон Сергеевич, https://objectoriented.ru/me:research",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Формальные языки и трансляции Продвинутый поток_Осень_2025.html": {
+        "title": "Формальные языки и трансляции 2025 Продвинутый поток",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/История и методология информатики и вычислительной техники_Весна_2026.html": {
+        "title": "История и методология информатики и вычислительной техники весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+B3g43yhi3Ak5MDUy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Разработки на Flutter_Весна_2025.html": {
+        "title": "Разработка на Flutter весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+eJSsfe2X3vRmMmE6"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Databases_Весна_2026.html": {
+        "title": "Databases весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Применение Python в статистическом анализе данных_Осень_2025.html": {
+        "title": "Применение Python в статистическом анализе данных 2025",
+        "assessment": "дифф. зачет",
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "python4da@yandex.ru"
+        ],
+        "homework_count": 6
+    },
+    "courses_2025_2026/Алгоритмы биоинформатики_Осень_2026.html": {
+        "title": "Алгоритмы биоинформатики 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+2HnVTJTlJfZiODhi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных I. Продвинутый поток_Осень_2026.html": {
+        "title": "Алгоритмы и структуры данных I. Продвинутый поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Методы реализации алгоритмов_Весна_2026.html": {
+        "title": "Методы реализации алгоритмов весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+SyKn4udNZw1lYWYy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Параллельные и распределенные вычисления_Весна_2026.html": {
+        "title": "Параллельные и распределенные вычисления весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/+KHIM4QIa930yNGMy",
+            "https://t.me/atpfpmi_curators"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных II. Продвинутый поток_Весна_2026.html": {
+        "title": "Алгоритмы и структуры данных II. Продвинутый поток весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Теория и практика многопоточной синхронизации_Весна_2025.html": {
+        "title": "Теория и практика многопоточной синхронизации весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы на дискретных структурах данных_Весна_2025.html": {
+        "title": "Алгоритмы на дискретных структурах данных весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/ЦОПРИ. Основы искусственного интеллекта в играх - 2025_Осень_2025.html": {
+        "title": "ЦОПРИ. Основы искусственного интеллекта в играх - 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+1_FDrMzSdSA2NDMy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Разработка на Go_Весна_2025.html": {
+        "title": "Разработка на Go весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Основной (односеместровый)_Осень_2026.html": {
+        "title": "Программирование на языке C++. (односеместровый) 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+8AWYEeSgSKMzMDk6"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Олимпиадное программирование_Весна_2025.html": {
+        "title": "Олимпиадное программирование весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Алгоритмы на графах и динамическое программирование_Осень_2026.html": {
+        "title": "Алгоритмы на графах и динамическое программирование 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Параллельные и распределенные вычисления_Осень_2025.html": {
+        "title": "Параллельные и распределенные вычисления 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/+tvtBcWrDSgVmYzEy",
+            "https://t.me/atpfpmi_curators"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Разработка на Android_Весна_2026.html": {
+        "title": "Разработка на Android весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+V0UPMN-6PEg4NjNi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Основной поток (двухсеместровый)_Осень_2026.html": {
+        "title": "Программирование на языке C++. Основной поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Современные технологии разработки сервисов анализа данных_Весна_2025.html": {
+        "title": "Современные технологии разработки сервисов анализа данных весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Педагогический практикум. Дополнительные главы_Весна_2025.html": {
+        "title": "Педагогический практикум. Дополнительные главы весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Алгоритмы и структуры данных. Продвинутый поток_Осень_2026.html": {
+        "title": "ИВТ. Алгоритмы и структуры данных. Продвинутый поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Языки программирования и теория компиляции_Весна_2026.html": {
+        "title": "Языки программирования и теория компиляции весна 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных III. Продвинутый  поток_Осень_2026.html": {
+        "title": "Алгоритмы и структуры данных III. Продвинутый поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Workshop on Software Development_Осень_2025.html": {
+        "title": "Workshop on Software Development 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Юлия Иванова",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Parallel and Distributed Computing II_Весна_2025.html": {
+        "title": "Parallel and Distributed Computing II весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+9pSPd59Dcr1iMTI6"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Облачные бизнесы и платформы 1 часть (МТС)_Весна_2026.html": {
+        "title": "Облачные бизнесы и платформы 1 часть (МТС) 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Введение в идиоматический Котлин_Весна_2026.html": {
+        "sections": {},
+        "full_text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "title": null,
+        "parse_status": "unsupported format"
+    },
+    "courses_2025_2026/Programming Java_Осень_2026.html": {
+        "title": "Programming Java 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Базы данных_Весна_2025.html": {
+        "title": "Базы данных весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "smolkina.iua@phystech.edu"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/НИС_Весна_2026_Осень_2026.html": {
+        "title": "НИС 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/sekretar_atp",
+            "https://t.me/+GwMzsq589jJkYjgy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных I. Основной поток_Осень_2026.html": {
+        "title": "Алгоритмы и структуры данных I. Основной поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ.Современные компьютерные сети_Осень_2026.html": {
+        "title": "ИВТ.Современные компьютерные сети 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+PTeoPiA-RQ43NWIy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Foreign students. Foundations of Programming II_Весна_2025.html": {
+        "title": "Foreign students. Foundations of Programming II 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+T78nWFPaaCIxMGZi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Основы лидерства и управление высокоэффективными командами_Осень_2025.html": {
+        "title": "Основы лидерства и управление высокоэффективными командами 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+pdpcyv0gMJYxOTMy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/АКОС (для Blockchain)_Весна_2025.html": {
+        "title": "АКОС (для Blockchain) весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Основы непрерывной интеграции (DevOps)_Весна_2026.html": {
+        "title": "Основы непрерывной интеграции (DevOps) весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Data Structures and Algorithms II_Осень_2026.html": {
+        "title": "Data Structures and Algorithms II 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Современные технологии разработки сервисов анализа данных_Осень_2026.html": {
+        "title": "Современные технологии разработки сервисов анализа данных осень 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/АКОС II_Весна_2026.html": {
+        "title": "АКОС II весна 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+V2BebiKaxLwxZjFi",
+            "https://t.me/+V2BebiKaxLwxZjFiТелеграм-чат"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных II. Поток Java_Весна_2025.html": {
+        "title": "Алгоритмы и структуры данных II. Поток Java весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Машинное обучение на больших объемах данных_Осень_2026.html": {
+        "title": "Машинное обучение на больших объемах данных 2026",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+wi1uexz6-gVkODcy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Основной поток (Павел Попов)_Весна_2026.html": {
+        "title": "Программирование на языке C++. Основной поток весна 2026 Попов",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+vSeFJ-jDWchjOTli",
+            "https://t.me/+t3XbmeCH35FhNzQy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных II. Иностранный поток_Весна_2025.html": {
+        "title": "Алгоритмы и структуры данных II. Иностранный поток весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": "Александр Смолин",
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/ads_foreings"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы на дискретных структурах данных (ШАД) 2025_Осень_2025.html": {
+        "title": "Алгоритмы на дискретных структурах данных (ШАД) 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+-DyDJhjRKvoyNDFi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Основы лидерства и управление высокоэффективными командами_Весна_2026.html": {
+        "title": "Основы лидерства и управление высокоэффективными командами весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+1YR9uxE66Mg5NzJi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Технологии программирования_Весна_2025.html": {
+        "title": "ТП весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "akhtyamovpavel@akhpl.ru"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Алгоритмы и структуры данных III. Базовый поток_Осень_2026.html": {
+        "title": "Алгоритмы и структуры данных III. Базовый поток 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Практикум Python_Весна_2025.html": {
+        "title": "Практикум Python весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": "Спицын Николай (tg: @Jetminded)",
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на языке C++. Иностранный поток_Осень_2025.html": {
+        "title": "Программирование на языке C++. Иностранный поток 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Основы программирования на C#_Весна_2026.html": {
+        "title": "Основы программирования на .NET (C Sharp)",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Курс преподает Протасов Антон Андреевич",
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+sHJ9fp1VmGgxYWUy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/АКОС II Lite_Весна_2025.html": {
+        "title": "АКОС II Lite весна 2025",
+        "assessment": null,
+        "has_course_plan": true,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+Zty22NvfNGJlYWQy"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Математические основания алгоритмов и сложность вычислений. Базовый поток_Осень_2025_Осень_2026.html": {
+        "title": "ИВТ. Математические основания алгоритмов и сложность вычислений. 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/ИВТ. Практикум по объектно-ориентированному программированию. Продвинутый поток_Весна_2026.html": {
+        "title": "ИВТ. Практикум по объектно-ориентированному программированию. Продвинутый поток весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Foundations of Programming I_Осень_2026.html": {
+        "title": "Foundations of Programming I 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Программирование на Java_Весна_2026.html": {
+        "title": "Программирование на Java весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Operating Systems II_Операционные системы I_Весна_2025.html": {
+        "title": "Operating Systems II/Операционные системы I весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+SsRQ6CmXF_ljZTdi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Автоматизация программирования_Весна_2026.html": {
+        "title": "Автоматизация программирования весна 2026",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Промышленное программирование на языке Java_Осень_2025.html": {
+        "title": "Промышленное программирование на языке Java 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/+IML2UmP5IbNkMWJi",
+            "https://t.me/fanastasiiaf",
+            "https://t.me/ivan_ponomarev",
+            "https://t.me/maryrubik",
+            "https://t.me/juletats",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/onepathq",
+            "https://t.me/EntityResult",
+            "https://t.me/s_chesnokoff",
+            "https://t.me/Popadosych",
+            "https://t.me/int_main_int",
+            "https://t.me/konstantin_galperin",
+            "https://t.me/AlexOEJ",
+            "https://t.me/taekwandodo",
+            "https://t.me/pyrrrolidine"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/Хранение и обработка больших объёмов данных_Весна_2025.html": {
+        "title": "Хранение и обработка больших объёмов данных весна 2025",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": true,
+        "contacts": [
+            "servers@atp-fivt.org",
+            "https://t.me/+XeWTXxzq2fRmYzBi"
+        ],
+        "homework_count": null
+    },
+    "courses_2025_2026/ММТУ. Введение в программирование_Осень_2026.html": {
+        "title": "ММТУ. Введение в программирование",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": null,
+        "has_contacts": false,
+        "contacts": [],
+        "homework_count": null
+    },
+    "courses_2025_2026/Интерпретируемые методы классификации и порождения знаний_Осень_2025_Осень_2026.html": {
+        "title": "Интерпретируемые методы классификации и порождения знаний",
+        "assessment": null,
+        "has_course_plan": false,
+        "course_leader": "Д-р физ-мат. наук Кузнецов Сергей Олегович",
+        "has_contacts": true,
+        "contacts": [
+            "https://t.me/+zZ63IQs_D-E2NjY0"
+        ],
+        "homework_count": null
+    }
+}

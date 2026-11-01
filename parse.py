@@ -70,6 +70,7 @@ def counting_homeworks(content):
 
 def create_dict_for_course_info(soup):
     content = soup.find(attrs={"class": "mw-parser-output"})
+    course_info = {}
     if content is None:
         course_info['sections'] = {}
         course_info['full_text'] = soup.text
@@ -102,4 +103,5 @@ def create_course_info_json():
     with open('courses_info.json', 'w', encoding='utf-8') as f:
         json.dump(courses_info, f, ensure_ascii=False, indent=4)
 
+create_course_info_json()
 
