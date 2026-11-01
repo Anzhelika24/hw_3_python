@@ -82,10 +82,14 @@ def create_course_info_json():
     main_soup = parse_html_file("wiki.html")
     courses = collect_courses(main_soup, "https://wiki.atp-fivt.org/")
     unique_adresses = take_unique_adresses(courses)
-    for file_path in Path('courses_2025_2026').iterdir():
+    for url, name in unique_adresses.items():
+        safe_name = name.replace("/", "_")
+        file_path = f'courses_2025_2026/{safe_name}.html'
+
         soup = parse_html_file(file_path)
         course_info = create_dict_for_course_info(soup)
-        courses_info[str(file_path)] = course_info
+        course_info['url'] = url
+        courses_info[file_path] = course_info
 
     with open('courses_info.json', 'w', encoding='utf-8') as f:
         json.dump(courses_info, f, ensure_ascii=False, indent=4)
