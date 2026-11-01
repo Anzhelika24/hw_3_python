@@ -13,5 +13,6 @@ filename = (
 )
 
 soup = parse_html_file(filename)
-print(soup.find('h1').text)
-print(soup.find(attrs={'class': 'mw-parser-output'}).text)
+with open('python_course.txt', 'w', encoding='utf-8') as f:
+    f.write(soup.find('h1').text)
+    f.write(soup.find(attrs={'class': 'mw-parser-output'}).text)
