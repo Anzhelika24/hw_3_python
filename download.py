@@ -94,7 +94,6 @@ def take_unique_adresses(courses):
     unique_adresses = dict()
     for semester_name, semester_courses in courses.items():
         for course_url, course_name in semester_courses.items():
-            count += 1
             semester_name_list = semester_name.split()
             if semester_name_list[0] == 'Весенний':
                 course_season = 'Весна'
