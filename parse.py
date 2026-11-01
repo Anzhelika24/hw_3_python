@@ -204,7 +204,7 @@ def create_anti_top(courses_info):
         for field in fields:
             if course_info.get(field) is None:
                 missing_count += 1
-        anti_top[course_info['title']] = missing_count
+        anti_top[course_info['url']] = missing_count
     anti_top_sorted = sorted(anti_top.items(), key=lambda pair: pair[1], reverse=True)
     with open('anti_top.txt', 'w', encoding='utf-8') as file:
         for key, value in anti_top_sorted[:10]:
