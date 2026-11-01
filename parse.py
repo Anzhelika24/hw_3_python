@@ -41,16 +41,42 @@ def find_contacts(content):
     return cleaned_emails + telegram_links
 
 def counting_homeworks(content):
-    patterns = [
-    r'(?:запланировано|всего)\s+(\d+)\s+домашних\s+заданий',
-    r'(?:запланировано|всего)\s+домашних\s+заданий\s*[:—–-]?\s*(\d+)',
-]
-    for pattern in patterns:
-        match = re.search(pattern, content.text, flags=re.IGNORECASE)
-        if match:
-            return int(match.group(1))
-    return None
+    text = content.text
 
+    pattern = (
+        r'\b(?:мини-)?дз[ \t]*[№#]?[ \t]*\d+\b'
+        r'|мини-дз[ \t]+[^\n]+'
+    )
+
+    names = re.findall(pattern, text, flags=re.IGNORECASE)
+    homeworks = set()
+
+    for name in names:
+        name = ''.join(name.lower().split())
+        name = name.replace('№', '').replace('#', '')
+        homeworks.add(name)
+
+    counts = []
+
+    if homeworks:
+        counts.append(len(homeworks))
+
+    patterns = [
+        r'(?:запланировано|всего)\s+(\d+)\s+домашних\s+заданий',
+        r'(?:запланировано|всего)\s+домашних\s+заданий\s*[:—–-]?\s*(\d+)',
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, text, flags=re.IGNORECASE)
+
+        if match:
+            counts.append(int(match.group(1)))
+            break
+
+    if counts:
+        return max(counts)
+
+    return None
 
 def find_field(content, section, pattern):
     for section_name, section_text in section.items():
