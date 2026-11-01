@@ -44,18 +44,15 @@ def get_number_homeworks_by_counting_matches(content):
     pattern = (
         r'\b(?:мини-)?дз[ \t]*[№#]?[ \t]*\d+\b|мини-дз[ \t]+[^\n]+'
     )
-
     names = re.findall(pattern, text, flags=re.IGNORECASE)
     homeworks = set()
     for name in names:
         name = ''.join(name.lower().split())
         name = name.replace('№', '').replace('#', '')
         homeworks.add(name)
-
     counts = []
     if homeworks:
         counts.append(len(homeworks))
-
     patterns = [
         r'(?:запланировано|всего)\s+(\d+)\s+домашних\s+заданий',
         r'(?:запланировано|всего)\s+домашних\s+заданий\s*[:—–-]?\s*(\d+)',
@@ -87,7 +84,6 @@ def find_field(content, section, pattern):
 
     text = get_course_text(content)
     pattern = pattern + r'[ \t]*(?:[:-]|\n)\s*([^\n]+)'
-    
     for match in re.finditer(pattern, text, flags=re.IGNORECASE):
            value = match.group(1).strip()
    
@@ -211,7 +207,7 @@ def create_anti_top(courses_info):
         anti_top[course_info['url']] = missing_count
     anti_top_sorted = sorted(anti_top.items(), key=lambda pair: pair[1], reverse=True)
     with open('anti_top.txt', 'w', encoding='utf-8') as file:
-        for key, value in anti_top_sorted[:30]:
+        for key, value in anti_top_sorted[:50]:
             file.write(f'{key}: {value}\n')
 
 create_anti_top(courses_info)
