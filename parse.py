@@ -50,8 +50,9 @@ def find_contacts(content):
     for link in content.find_all('a', attrs={'href': True}):
         if link['href'].startswith('t.me/'):
             telegram_links.append(link['href'])
+    telegram_links = list(set(telegram_links))
 
-    return cleaned_emails, telegram_links
+    return cleaned_emails + telegram_links
 
 def create_dict_for_course_info(soup):
     content = soup.find(attrs={"class": "mw-parser-output"})
