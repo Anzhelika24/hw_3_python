@@ -464,8 +464,8 @@
         "course_leader": "Денис Баринов @DBarinovv",
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+sf2FAn5Rs6U4MTdi",
-            "https://t.me/DBarinovv"
+            "https://t.me/DBarinovv",
+            "https://t.me/+sf2FAn5Rs6U4MTdi"
         ],
         "homework_count": 11,
         "is_parsed": true,
@@ -501,16 +501,16 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/shapkapavel",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/obvallata",
-            "https://t.me/dvinyatinfedor",
-            "https://t.me/sshuron",
-            "https://t.me/tsmax2004",
             "https://t.me/glhfuck",
-            "https://t.me/+kSg2lDTpeRY1YmNi",
+            "https://t.me/sshuron",
+            "https://t.me/loreAdopt",
+            "https://t.me/shapkapavel",
             "https://t.me/divanlitva",
-            "https://t.me/loreAdopt"
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/dvinyatinfedor",
+            "https://t.me/+kSg2lDTpeRY1YmNi",
+            "https://t.me/obvallata",
+            "https://t.me/tsmax2004"
         ],
         "homework_count": 11,
         "is_parsed": true,
@@ -757,9 +757,9 @@
         "contacts": [
             "smolkina.iua@phystech.edu",
             "yakusheva.sf@phystech.edu",
-            "https://t.me/+BLMHzOvg5xpiMzUy",
             "https://t.me/+f1EF4ocv63JlOWQy",
-            "https://t.me/+4qMcvGbxeq0zNWMy"
+            "https://t.me/+4qMcvGbxeq0zNWMy",
+            "https://t.me/+BLMHzOvg5xpiMzUy"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -812,7 +812,7 @@
         "title": "АКОС II Lite весна 2025",
         "assessment": "дифференцированный зачет",
         "has_course_plan": true,
-        "course_leader": "1. Операционная система Linux",
+        "course_leader": null,
         "has_contacts": true,
         "contacts": [
             "https://t.me/+Zty22NvfNGJlYWQy"
@@ -842,8 +842,8 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/+3s6XjCzFlaYxMzIy",
-            "https://t.me/atpfpmi_curators"
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/+3s6XjCzFlaYxMzIy"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -1660,7 +1660,7 @@
         "title": "Современные компьютерные сети 2025",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": "Изучить протокол ВМР для сбора сontrol-plane телеметрии, сделав его практическую имплементацию.",
+        "course_leader": null,
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
@@ -1798,21 +1798,21 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/onepathq",
-            "https://t.me/int_main_int",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/AlexOEJ",
-            "https://t.me/taekwandodo",
             "https://t.me/fanastasiiaf",
-            "https://t.me/Popadosych",
+            "https://t.me/onepathq",
             "https://t.me/juletats",
-            "https://t.me/EntityResult",
-            "https://t.me/pyrrrolidine",
-            "https://t.me/konstantin_galperin",
-            "https://t.me/+IML2UmP5IbNkMWJi",
-            "https://t.me/maryrubik",
             "https://t.me/s_chesnokoff",
-            "https://t.me/ivan_ponomarev"
+            "https://t.me/konstantin_galperin",
+            "https://t.me/int_main_int",
+            "https://t.me/taekwandodo",
+            "https://t.me/Popadosych",
+            "https://t.me/maryrubik",
+            "https://t.me/EntityResult",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/+IML2UmP5IbNkMWJi",
+            "https://t.me/ivan_ponomarev",
+            "https://t.me/pyrrrolidine",
+            "https://t.me/AlexOEJ"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -1870,8 +1870,8 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/+tvtBcWrDSgVmYzEy"
+            "https://t.me/+tvtBcWrDSgVmYzEy",
+            "https://t.me/atpfpmi_curators"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -1932,13 +1932,13 @@
         "course_leader": "Fullstack на Python\nНагайко Иван Игоревич (руководитель курса) @Nagaiko_Ivan\nПротасов Антон Андреевич @antprts\nFrontend\nКузнецов Владимир Сергеевич @grandrust\nBackend на Java\nБашкатов Алексей @asbashkatov\nBackend на Go\nБуров Никита @burov_na\n\n\nКонтакт для организационных вопросов\nКуратор курса @atpfpmi_curators",
         "has_contacts": true,
         "contacts": [
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/Nagaiko_Ivan",
-            "https://t.me/asbashkatov",
             "https://t.me/grandrust",
+            "https://t.me/Nagaiko_Ivan",
+            "https://t.me/+DYhkiivtfy8xNTZi",
+            "https://t.me/asbashkatov",
+            "https://t.me/atpfpmi_curators",
             "https://t.me/burov_na",
-            "https://t.me/antprts",
-            "https://t.me/+DYhkiivtfy8xNTZi"
+            "https://t.me/antprts"
         ],
         "homework_count": 8,
         "is_parsed": true,
@@ -2314,8 +2314,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+t3XbmeCH35FhNzQy",
-            "https://t.me/+vSeFJ-jDWchjOTli"
+            "https://t.me/+vSeFJ-jDWchjOTli",
+            "https://t.me/+t3XbmeCH35FhNzQy"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -2564,16 +2564,16 @@
         "contacts": [
             "servers@atp-fivt.org",
             "https://t.me/onepathq",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/+oV7SE5C92w44ODIy",
-            "https://t.me/obvallata",
-            "https://t.me/vmarunin",
-            "https://t.me/sshuron",
-            "https://t.me/tsmax2004",
             "https://t.me/glhfuck",
-            "https://t.me/shapkapavel",
+            "https://t.me/vmarunin",
             "https://t.me/rud_yandex",
-            "https://t.me/loreAdopt"
+            "https://t.me/sshuron",
+            "https://t.me/+oV7SE5C92w44ODIy",
+            "https://t.me/shapkapavel",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/loreAdopt",
+            "https://t.me/obvallata",
+            "https://t.me/tsmax2004"
         ],
         "homework_count": 11,
         "is_parsed": true,
@@ -2818,8 +2818,8 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/+KHIM4QIa930yNGMy",
-            "https://t.me/atpfpmi_curators"
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/+KHIM4QIa930yNGMy"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -2883,10 +2883,10 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/ftopsg",
+            "https://t.me/+Jod4vZUGoRxkNDgy",
             "https://t.me/atpfpmi_curators",
-            "https://t.me/Rybchits",
-            "https://t.me/+Jod4vZUGoRxkNDgy"
+            "https://t.me/ftopsg",
+            "https://t.me/Rybchits"
         ],
         "homework_count": 12,
         "is_parsed": true,
@@ -2933,14 +2933,14 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/dfs_dima",
-            "https://t.me/AlexOEJ",
             "https://t.me/Popadosych",
-            "https://t.me/EntityResult",
-            "https://t.me/+7ZCOoyBjE_JiNGEy",
             "https://t.me/lvanan",
-            "https://t.me/ivan_ponomarev"
+            "https://t.me/EntityResult",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/ivan_ponomarev",
+            "https://t.me/dfs_dima",
+            "https://t.me/+7ZCOoyBjE_JiNGEy",
+            "https://t.me/AlexOEJ"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -3638,8 +3638,8 @@
         "has_contacts": true,
         "contacts": [
             "akhtyamov@phystech.edu",
-            "https://t.me/+X2zKWmmr7gg2Nzgy",
-            "https://t.me/+ywvmwhtUG-syMTUy"
+            "https://t.me/+ywvmwhtUG-syMTUy",
+            "https://t.me/+X2zKWmmr7gg2Nzgy"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -3735,21 +3735,21 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/dfs_dima",
-            "https://t.me/allaberenov_k",
-            "https://t.me/LianaTiholese",
+            "https://t.me/juletats",
             "https://t.me/valeriia_krup",
-            "https://t.me/AlexOEJ",
-            "https://t.me/",
+            "https://t.me/konstantin_galperin",
+            "https://t.me/RBlazhko",
+            "https://t.me/maryrubik",
             "https://t.me/+OEx0KtMojLwwZmE6",
             "https://t.me/EntityResult",
-            "https://t.me/juletats",
-            "https://t.me/RBlazhko",
             "https://t.me/vvk101",
-            "https://t.me/konstantin_galperin",
-            "https://t.me/maryrubik",
+            "https://t.me/ivan_ponomarev",
+            "https://t.me/dfs_dima",
             "https://t.me/karmaxxkomao",
-            "https://t.me/ivan_ponomarev"
+            "https://t.me/LianaTiholese",
+            "https://t.me/",
+            "https://t.me/allaberenov_k",
+            "https://t.me/AlexOEJ"
         ],
         "homework_count": null,
         "is_parsed": true,
@@ -4029,14 +4029,14 @@
         "course_leader": "Fullstack на Python\nНагайко Иван Игоревич (руководитель курса) @Nagaiko_Ivan\nПротасов Антон Андреевич @antprts\nFrontend\nКузнецов Владимир Сергеевич @grandrust\nBackend на Java\nБашкатов Алексей @asbashkatov\nBackend на Go\nБуров Никита @burov_na\n\n\nКонтакт для организационных вопросов\nКуратор от кафедры @LianaTiholese\nКрупильницкая Валерия (организатор) @valeriia_krup",
         "has_contacts": true,
         "contacts": [
+            "https://t.me/grandrust",
             "https://t.me/Nagaiko_Ivan",
-            "https://t.me/LianaTiholese",
             "https://t.me/valeriia_krup",
             "https://t.me/asbashkatov",
-            "https://t.me/grandrust",
+            "https://t.me/+qwmduC3nVE01MmRi",
             "https://t.me/burov_na",
-            "https://t.me/antprts",
-            "https://t.me/+qwmduC3nVE01MmRi"
+            "https://t.me/LianaTiholese",
+            "https://t.me/antprts"
         ],
         "homework_count": 8,
         "is_parsed": true,
@@ -4095,7 +4095,7 @@
         "title": "ИВТ.Современные компьютерные сети 2026",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Пономаренко Роман Евгеньевич",
         "has_contacts": true,
         "contacts": [
             "https://t.me/+PTeoPiA-RQ43NWIy"
@@ -4445,12 +4445,12 @@
         "course_leader": "Никита Честнов (@nchestnov) - продвинутый поток",
         "has_contacts": true,
         "contacts": [
-            "https://t.me/LianaTiholese",
             "https://t.me/valeriia_krup",
             "https://t.me/+HUjyejSRipc3NWY6",
-            "https://t.me/OspanovAlen",
             "https://t.me/fokit26",
-            "https://t.me/Ewsey"
+            "https://t.me/Ewsey",
+            "https://t.me/OspanovAlen",
+            "https://t.me/LianaTiholese"
         ],
         "homework_count": 5,
         "is_parsed": true,
