@@ -100,12 +100,12 @@ def find_projects(content):
     text = get_course_text(content).lower()
 
     pattern = (
-        r'\b(?:итогов|курсов)\w*\s+проект\w*|'
-        r'\b(?:курсов|проектн)\w*\s+работ\w*|'
-        r'\bзащит\w*\s+проект\w*'
+        r'(?:итогов|курсов)\w*\s+проект\w*|(?:курсов|проектн)\w*\s+работ\w*|защит\w*\s+проект\w*'
     )
-    project = re.search(pattern, text, flags=re.IGNORECASE)
-    return bool(project)
+    for line in text.splitlines():
+        if re.search(pattern, line, flags=re.IGNORECASE) and not re.search(r'не\s+предусмотрен|\w*', line, flags=re.IGNORECASE):
+            return True
+    return False
 
 
     
