@@ -16,7 +16,6 @@ def download_page(url, filename, additional_err_text=""):
         with open(f"{filename}.html", "w", encoding="utf-8") as file:
             file.write(response.text)
 
-        print("Страница сохранена")
         return True
 
     except requests.RequestException as error:
