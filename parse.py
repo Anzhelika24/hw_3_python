@@ -91,9 +91,7 @@ def create_dict_for_course_info(soup):
     course_info['sections'] = sections
     course_info['full_text'] = content.text.strip()
     course_info['parse_status'] = 'ok'
-    # pattern_assessment = r'оцен'
-    # course_info['assessment'] = sections.get(pattern_assessment, None)
-    assessment = find_field(content, sections, r'Форма\s+контроля')
+    assessment = find_field(content, sections, r'Форма\s+(контроля|отч[её]тности)')
 
     if assessment and re.search(r'зач[её]т|экзамен', assessment, flags=re.IGNORECASE):
         course_info['assessment'] = assessment
