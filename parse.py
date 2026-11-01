@@ -56,7 +56,7 @@ def find_contacts(content):
 
 def create_dict_for_course_info(soup):
     content = soup.find(attrs={"class": "mw-parser-output"})
-    course_info = {'title': None, 'assessment': None, 'has_course_plan': None, 'course_leader': None, 'course_data': None}
+    course_info = {'title': None, 'assessment': None, 'has_course_plan': None, 'course_leader': None, 'contacts': None}
     course_info['title'] = soup.find(attrs={"class": "mw-page-title-main"}).text.strip()
     sections = extract_sections(content)
     # pattern_assessment = r'оцен'
@@ -64,7 +64,7 @@ def create_dict_for_course_info(soup):
     course_info['assessment'] = sections.get('Форма контроля', None)
     course_info['has_course_plan'] = sections.get('План курса', None) is not None
     course_info['course_leader'] = sections.get('Руководитель курса', None)
-    course_info['course_data'] = find_contacts(content)
+    course_info['contacts'] = find_contacts(content)
     return course_info
 
 course_info = create_dict_for_course_info(soup)
