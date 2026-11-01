@@ -43,30 +43,7 @@ def complete_url(relative_url, domain):
 def the_course_is_empty(link):
     if 'class' in link.attrs and 'new' in link.attrs['class']:
         return True 
-
-domain = "https://wiki.atp-fivt.org/"
-if not download_page(domain, "wiki", "Без главной страницы скачивание остальных невозможно"):
-    sys.exit(1)
     
-with open ("wiki.html", "r", encoding="utf_8") as file:
-    text = file.read()
-
-soup = BeautifulSoup(text, 'html.parser')
-
-with open("pretty_wiki_html.html", "w", encoding='utf_8') as f:
-    f.write(soup.prettify())
-
-links = soup.find_all('a', href=lambda href: href and not href.startswith('#'))
-
-result = []
-for link in links:
-    result.append(f"{link.text}: {link.attrs['href']}")
-
-text_new = '\n'.join(result)
-
-with open("links.txt", "w", encoding='utf_8') as f:
-    f.write(text_new)
-
 
 def collect_courses(soup, domain):
     courses = {
@@ -110,14 +87,36 @@ def take_unique_adresses(courses):
                 unique_adresses[course_url] = f"{course_name.strip()}_{suffix}"
     return unique_adresses
         
-
-with open('headlines.txt', 'w', encoding='utf_8') as file:
-    for semester_name, semester_courses in courses.items():
-        file.write(semester_name + '\n\n')
-        for course_url, name_course in semester_courses.items():
-            file.write(f'{name_course}: {course_url}' + '\n')
-
 if __name__ == "__main__":
+    domain = "https://wiki.atp-fivt.org/"
+    if not download_page(domain, "wiki", "Без главной страницы скачивание остальных невозможно"):
+        sys.exit(1)
+        
+    with open ("wiki.html", "r", encoding="utf_8") as file:
+        text = file.read()
+
+    soup = BeautifulSoup(text, 'html.parser')
+
+    with open("pretty_wiki_html.html", "w", encoding='utf_8') as f:
+        f.write(soup.prettify())
+
+    links = soup.find_all('a', href=lambda href: href and not href.startswith('#'))
+
+    result = []
+    for link in links:
+        result.append(f"{link.text}: {link.attrs['href']}")
+
+    text_new = '\n'.join(result)
+
+    with open("links.txt", "w", encoding='utf_8') as f:
+        f.write(text_new)
+
+    with open('headlines.txt', 'w', encoding='utf_8') as file:
+        for semester_name, semester_courses in courses.items():
+            file.write(semester_name + '\n\n')
+            for course_url, name_course in semester_courses.items():
+                file.write(f'{name_course}: {course_url}' + '\n')
+
     courses = collect_courses(soup, domain)
     unique_adresses = take_unique_adresses(courses)
     download_courses_pages(unique_adresses)
