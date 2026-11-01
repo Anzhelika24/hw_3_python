@@ -45,7 +45,13 @@ def find_contacts(content):
     pattern_mail = r'[\w\.-]+@[\w\.-]+'
     emails = re.findall(pattern_mail, content.text)
     cleaned_emails = list(set(email.strip('.,') for email in emails))
-    return cleaned_emails
+
+    telegram_links = []
+    for link in content.find_all('a', attrs={'href': True}):
+        if link['href'].startswith('t.me/'):
+            telegram_links.append(link['href'])
+
+    return cleaned_emails, telegram_links
 
 def create_dict_for_course_info(soup):
     content = soup.find(attrs={"class": "mw-parser-output"})
