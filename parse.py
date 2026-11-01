@@ -59,9 +59,17 @@ def find_field(content, section, pattern):
                 return section_text.strip()
         
     pattern = pattern + r'[ \t]*(?:[:-]|\n)\s*([^\n]+)'
-    match = re.search(pattern, content.text, flags=re.IGNORECASE)
-    if match:
-        return match.group(1).strip()
+    tags = ['p', 'li', 'tr', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
+    for label in content.find_all(tags):
+        if label.find_parent(id='toc') is not None:
+            continue
+
+        match = re.search(pattern, label.text, flags=re.IGNORECASE)
+
+        if match:
+            return match.group(1).strip()
+
+    return None
 
     
 def create_dict_for_course_info(soup):
