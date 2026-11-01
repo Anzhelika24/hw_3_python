@@ -40,6 +40,15 @@ json_sections = extract_sections(content)
 with open('python_course_sections.json', 'w', encoding='utf-8') as f:
     json.dump(json_sections, f, ensure_ascii=False, indent=4)
 
-
+def create_dict_for_course_info(soup):
+    content = soup.find(attrs={"class": "mw-parser-output"})
+    course_info = {'title', 'assessment', 'has_course_plan', 'course_leader', 'course_data'}
+    course_info['title'] = content.find('class', 'mw-page-title-main').text.strip()
+    sections = extract_sections(content)
+    # pattern_assessment = r'оцен'
+    # course_info['assessment'] = sections.get(pattern_assessment, None)
+    course_info['assessment'] = sections.get('Форма контроля', None)
+    course_info['has_course_plan'] = sections.get('План курса', None) is not None
+    course_info['course_leader'] = sections.get('Руководитель курса', None)
 
 
