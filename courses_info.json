@@ -445,8 +445,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+sf2FAn5Rs6U4MTdi",
-            "https://t.me/DBarinovv"
+            "https://t.me/DBarinovv",
+            "https://t.me/+sf2FAn5Rs6U4MTdi"
         ],
         "homework_count": null,
         "sections": {
@@ -481,16 +481,16 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/tsmax2004",
-            "https://t.me/loreAdopt",
-            "https://t.me/obvallata",
-            "https://t.me/shapkapavel",
-            "https://t.me/divanlitva",
             "https://t.me/sshuron",
-            "https://t.me/dvinyatinfedor",
+            "https://t.me/shapkapavel",
+            "https://t.me/obvallata",
+            "https://t.me/divanlitva",
+            "https://t.me/+kSg2lDTpeRY1YmNi",
             "https://t.me/glhfuck",
+            "https://t.me/dvinyatinfedor",
             "https://t.me/atpfpmi_curators",
-            "https://t.me/+kSg2lDTpeRY1YmNi"
+            "https://t.me/loreAdopt",
+            "https://t.me/tsmax2004"
         ],
         "homework_count": 11,
         "sections": {
@@ -584,7 +584,7 @@
         "title": "Теория и практика многопоточной синхронизации весна 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Роман Липовский",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -727,8 +727,8 @@
             "yakusheva.sf@phystech.edu",
             "smolkina.iua@phystech.edu",
             "https://t.me/+BLMHzOvg5xpiMzUy",
-            "https://t.me/+f1EF4ocv63JlOWQy",
-            "https://t.me/+4qMcvGbxeq0zNWMy"
+            "https://t.me/+4qMcvGbxeq0zNWMy",
+            "https://t.me/+f1EF4ocv63JlOWQy"
         ],
         "homework_count": null,
         "sections": {
@@ -808,8 +808,8 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/atpfpmi_curators",
-            "https://t.me/+3s6XjCzFlaYxMzIy"
+            "https://t.me/+3s6XjCzFlaYxMzIy",
+            "https://t.me/atpfpmi_curators"
         ],
         "homework_count": null,
         "sections": {
@@ -984,7 +984,7 @@
         "title": "Технологии программирования на Java весна 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Александр Ермаков",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
@@ -1046,7 +1046,7 @@
         "title": "Машинное обучение на практике весна 2025",
         "assessment": null,
         "has_course_plan": true,
-        "course_leader": null,
+        "course_leader": "Виктор Кантор",
         "has_contacts": true,
         "contacts": [
             "https://t.me/+PxdThaEu48JlM2Qy"
@@ -1724,25 +1724,25 @@
         "title": "Промышленное программирование на языке Java 2025",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Александр Ермаков @AlexOEJ",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/pyrrrolidine",
+            "https://t.me/+IML2UmP5IbNkMWJi",
+            "https://t.me/EntityResult",
+            "https://t.me/onepathq",
+            "https://t.me/taekwandodo",
             "https://t.me/konstantin_galperin",
             "https://t.me/ivan_ponomarev",
+            "https://t.me/juletats",
+            "https://t.me/AlexOEJ",
+            "https://t.me/pyrrrolidine",
+            "https://t.me/s_chesnokoff",
+            "https://t.me/maryrubik",
             "https://t.me/Popadosych",
             "https://t.me/int_main_int",
-            "https://t.me/AlexOEJ",
-            "https://t.me/juletats",
-            "https://t.me/fanastasiiaf",
-            "https://t.me/onepathq",
-            "https://t.me/+IML2UmP5IbNkMWJi",
-            "https://t.me/s_chesnokoff",
             "https://t.me/atpfpmi_curators",
-            "https://t.me/EntityResult",
-            "https://t.me/maryrubik",
-            "https://t.me/taekwandodo"
+            "https://t.me/fanastasiiaf"
         ],
         "homework_count": null,
         "sections": {
@@ -1798,8 +1798,8 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/+tvtBcWrDSgVmYzEy",
-            "https://t.me/atpfpmi_curators"
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/+tvtBcWrDSgVmYzEy"
         ],
         "homework_count": null,
         "sections": {
@@ -1858,12 +1858,12 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/Nagaiko_Ivan",
             "https://t.me/burov_na",
-            "https://t.me/asbashkatov",
+            "https://t.me/Nagaiko_Ivan",
             "https://t.me/+DYhkiivtfy8xNTZi",
-            "https://t.me/atpfpmi_curators",
+            "https://t.me/asbashkatov",
             "https://t.me/grandrust",
+            "https://t.me/atpfpmi_curators",
             "https://t.me/antprts"
         ],
         "homework_count": null,
@@ -2227,8 +2227,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/+vSeFJ-jDWchjOTli",
-            "https://t.me/+t3XbmeCH35FhNzQy"
+            "https://t.me/+t3XbmeCH35FhNzQy",
+            "https://t.me/+vSeFJ-jDWchjOTli"
         ],
         "homework_count": null,
         "sections": {
@@ -2466,17 +2466,17 @@
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/+oV7SE5C92w44ODIy",
-            "https://t.me/tsmax2004",
-            "https://t.me/loreAdopt",
-            "https://t.me/vmarunin",
-            "https://t.me/obvallata",
-            "https://t.me/shapkapavel",
-            "https://t.me/onepathq",
             "https://t.me/sshuron",
+            "https://t.me/shapkapavel",
+            "https://t.me/obvallata",
+            "https://t.me/onepathq",
+            "https://t.me/+oV7SE5C92w44ODIy",
             "https://t.me/glhfuck",
+            "https://t.me/vmarunin",
             "https://t.me/atpfpmi_curators",
-            "https://t.me/rud_yandex"
+            "https://t.me/loreAdopt",
+            "https://t.me/rud_yandex",
+            "https://t.me/tsmax2004"
         ],
         "homework_count": 11,
         "sections": {
@@ -2776,8 +2776,8 @@
             "servers@atp-fivt.org",
             "https://t.me/atpfpmi_curators",
             "https://t.me/+Jod4vZUGoRxkNDgy",
-            "https://t.me/Rybchits",
-            "https://t.me/ftopsg"
+            "https://t.me/ftopsg",
+            "https://t.me/Rybchits"
         ],
         "homework_count": null,
         "sections": {
@@ -2812,18 +2812,18 @@
         "title": "Технологии программирования на Java весна 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Александр Ермаков @AlexOEJ",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/ivan_ponomarev",
-            "https://t.me/Popadosych",
-            "https://t.me/dfs_dima",
-            "https://t.me/AlexOEJ",
             "https://t.me/+7ZCOoyBjE_JiNGEy",
-            "https://t.me/atpfpmi_curators",
+            "https://t.me/dfs_dima",
+            "https://t.me/EntityResult",
             "https://t.me/lvanan",
-            "https://t.me/EntityResult"
+            "https://t.me/ivan_ponomarev",
+            "https://t.me/AlexOEJ",
+            "https://t.me/atpfpmi_curators",
+            "https://t.me/Popadosych"
         ],
         "homework_count": null,
         "sections": {
@@ -3132,7 +3132,7 @@
         "title": "АКОС (для Blockchain) весна 2026",
         "assessment": "Формат: дистанционный\nФорма контроля: дифференцированный зачет",
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Манаков Данила, лектор",
         "has_contacts": false,
         "contacts": [],
         "homework_count": null,
@@ -3585,25 +3585,25 @@
         "title": "Промышленное программирование на языке Java 2026",
         "assessment": null,
         "has_course_plan": false,
-        "course_leader": null,
+        "course_leader": "Александр Ермаков @AlexOEJ",
         "has_contacts": true,
         "contacts": [
             "servers@atp-fivt.org",
-            "https://t.me/konstantin_galperin",
-            "https://t.me/ivan_ponomarev",
-            "https://t.me/",
-            "https://t.me/allaberenov_k",
             "https://t.me/dfs_dima",
-            "https://t.me/AlexOEJ",
-            "https://t.me/+OEx0KtMojLwwZmE6",
-            "https://t.me/valeriia_krup",
-            "https://t.me/vvk101",
-            "https://t.me/LianaTiholese",
-            "https://t.me/RBlazhko",
             "https://t.me/EntityResult",
-            "https://t.me/maryrubik",
+            "https://t.me/vvk101",
+            "https://t.me/RBlazhko",
+            "https://t.me/konstantin_galperin",
+            "https://t.me/allaberenov_k",
+            "https://t.me/valeriia_krup",
+            "https://t.me/+OEx0KtMojLwwZmE6",
+            "https://t.me/ivan_ponomarev",
             "https://t.me/juletats",
-            "https://t.me/karmaxxkomao"
+            "https://t.me/AlexOEJ",
+            "https://t.me/karmaxxkomao",
+            "https://t.me/LianaTiholese",
+            "https://t.me/maryrubik",
+            "https://t.me/"
         ],
         "homework_count": null,
         "sections": {
@@ -3872,13 +3872,13 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/Nagaiko_Ivan",
             "https://t.me/burov_na",
-            "https://t.me/asbashkatov",
+            "https://t.me/Nagaiko_Ivan",
             "https://t.me/valeriia_krup",
-            "https://t.me/LianaTiholese",
-            "https://t.me/grandrust",
             "https://t.me/+qwmduC3nVE01MmRi",
+            "https://t.me/LianaTiholese",
+            "https://t.me/asbashkatov",
+            "https://t.me/grandrust",
             "https://t.me/antprts"
         ],
         "homework_count": null,
@@ -4214,8 +4214,8 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/ruroruro",
-            "https://t.me/VladShakhuro"
+            "https://t.me/VladShakhuro",
+            "https://t.me/ruroruro"
         ],
         "homework_count": null,
         "sections": {
@@ -4274,11 +4274,11 @@
         "course_leader": null,
         "has_contacts": true,
         "contacts": [
-            "https://t.me/valeriia_krup",
-            "https://t.me/OspanovAlen",
-            "https://t.me/fokit26",
             "https://t.me/Ewsey",
+            "https://t.me/valeriia_krup",
             "https://t.me/LianaTiholese",
+            "https://t.me/fokit26",
+            "https://t.me/OspanovAlen",
             "https://t.me/+HUjyejSRipc3NWY6"
         ],
         "homework_count": null,

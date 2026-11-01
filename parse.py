@@ -57,17 +57,20 @@ def find_field(content, section, pattern):
         if (re.fullmatch(pattern + r'\s*:?', section_name, flags=re.IGNORECASE)):
             if section_text:
                 return section_text.strip()
-        
+
+    text = content.text
+    toc = content.find(id='toc')
+
+    if toc is not None:
+        text = text.replace(toc.text, '', 1)
+
     pattern = pattern + r'[ \t]*(?:[:-]|\n)\s*([^\n]+)'
-    tags = ['p', 'li', 'tr', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
-    for label in content.find_all(tags):
-        if label.find_parent(id='toc') is not None:
-            continue
-
-        match = re.search(pattern, label.text, flags=re.IGNORECASE)
-
-        if match:
-            return match.group(1).strip()
+    
+    for match in re.finditer(pattern, text, flags=re.IGNORECASE):
+           value = match.group(1).strip()
+   
+           if value and value not in section:
+               return value
 
     return None
 
