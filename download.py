@@ -111,12 +111,12 @@ if __name__ == "__main__":
     with open("links.txt", "w", encoding='utf_8') as f:
         f.write(text_new)
 
+    courses = collect_courses(soup, domain)
+    unique_adresses = take_unique_adresses(courses)
+    download_courses_pages(unique_adresses)
+
     with open('headlines.txt', 'w', encoding='utf_8') as file:
         for semester_name, semester_courses in courses.items():
             file.write(semester_name + '\n\n')
             for course_url, name_course in semester_courses.items():
                 file.write(f'{name_course}: {course_url}' + '\n')
-
-    courses = collect_courses(soup, domain)
-    unique_adresses = take_unique_adresses(courses)
-    download_courses_pages(unique_adresses)
