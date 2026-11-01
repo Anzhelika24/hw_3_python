@@ -198,7 +198,11 @@ count_missing_values(courses_info)
 
 def create_anti_top(courses_info):
     anti_top = {}
-    for course_info in courses_info.values():
+    sorted_by_length_courses = sorted(courses_info.values(), key=lambda course: len(course.get('full_text', '')))
+                              
+    for course_info in sorted_by_length_courses:
+        if not course_info['is_parsed']:
+            continue
         missing_count = 0
         fields = course_info.keys()
         for field in fields:
