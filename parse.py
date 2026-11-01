@@ -70,16 +70,22 @@ def counting_homeworks(content):
 
     return None
 
+def get_course_text(content):
+    text = content.text
+    toc = content.find(id='toc')
+
+    if toc is not None:
+        text = text.replace(toc.text, '', 1)
+
+    return text
+
 def find_field(content, section, pattern):
     for section_name, section_text in section.items():
         if (re.fullmatch(pattern + r'\s*:?', section_name, flags=re.IGNORECASE)):
             if section_text:
                 return section_text.strip()
 
-    text = content.text
-    toc = content.find(id='toc')
-    if toc is not None:
-        text = text.replace(toc.text, '', 1)
+    text = get_course_text(content)
     pattern = pattern + r'[ \t]*(?:[:-]|\n)\s*([^\n]+)'
     
     for match in re.finditer(pattern, text, flags=re.IGNORECASE):
@@ -90,6 +96,9 @@ def find_field(content, section, pattern):
 
     return None
 
+def find_projects(content):
+    text = get_course_text(content)
+    
     
 def create_dict_for_course_info(soup):
     content = soup.find(attrs={"class": "mw-parser-output"})
@@ -101,6 +110,7 @@ def create_dict_for_course_info(soup):
                    'contacts': None, 
                    'homework_count': None,
                    'is_parsed': False,
+                   'has_projects': None,
                     'sections': {}}
 
     title_tag = soup.find(attrs={"class": "mw-page-title-main"})
@@ -123,6 +133,7 @@ def create_dict_for_course_info(soup):
     course_info['contacts'] = find_contacts(content)
     course_info['has_contacts'] = bool(course_info['contacts'])
     course_info['homework_count'] = counting_homeworks(content)
+    course_info['has_projects'] = find_projects(content)
     return course_info
 
 
