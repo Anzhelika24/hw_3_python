@@ -38,7 +38,7 @@ def find_contacts(content):
     return cleaned_emails + telegram_links
 
 
-def counting_homeworks(content):
+def get_number_homeworks_by_counting_matches(content):
     text = content.text
 
     pattern = (
@@ -97,8 +97,17 @@ def find_field(content, section, pattern):
     return None
 
 def find_projects(content):
-    text = get_course_text(content)
-    
+    text = get_course_text(content).lower()
+
+    pattern = (
+        r'\b(?:итогов|курсов)\w*\s+проект\w*|'
+        r'\b(?:курсов|проектн)\w*\s+работ\w*|'
+        r'\bзащит\w*\s+проект\w*'
+    )
+    project = re.search(pattern, text, flags=re.IGNORECASE)
+    return bool(project)
+
+
     
 def create_dict_for_course_info(soup):
     content = soup.find(attrs={"class": "mw-parser-output"})
@@ -132,7 +141,7 @@ def create_dict_for_course_info(soup):
     course_info['course_leader'] = find_field(content, sections, r'Руководител[ьи]\s+курса')
     course_info['contacts'] = find_contacts(content)
     course_info['has_contacts'] = bool(course_info['contacts'])
-    course_info['homework_count'] = counting_homeworks(content)
+    course_info['homework_count'] = get_number_homeworks_by_counting_matches(content)
     course_info['has_projects'] = find_projects(content)
     return course_info
 
@@ -145,12 +154,10 @@ def create_course_info_json():
     for url, name in unique_adresses.items():
         safe_name = name.replace("/", "_")
         file_path = f'courses_2025_2026/{safe_name}.html'
-
         soup = parse_html_file(file_path)
         course_info = create_dict_for_course_info(soup)
         course_info['url'] = url
         course_info['semesters'] = []
-
         for semester_name, semester_courses in courses.items():
             if url in semester_courses:
                 course_info['semesters'].append(semester_name)
