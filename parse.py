@@ -173,8 +173,8 @@ def count_missing_values(courses_info):
 courses_info = create_course_info_json()
 count_missing_values(courses_info)
 
-with open('courses_info.json', 'r', encoding='utf-8') as f:
-    courses_info = json.load(f)
-    for file_path, course_info in courses_info.items():
-        if course_info['homework_count'] is not None:
-            print(f"{course_info['url']}: {course_info['homework_count']} домашних заданий")
+# with open('courses_info.json', 'r', encoding='utf-8') as f:
+#     courses_info = json.load(f)
+#     for file_path, course_info in courses_info.items():
+#         if course_info['homework_count'] is not None:
+#             print(f"{course_info['url']}: {course_info['homework_count']} домашних заданий")
