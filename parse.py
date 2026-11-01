@@ -14,5 +14,5 @@ filename = (
 
 soup = parse_html_file(filename)
 with open('python_course.txt', 'w', encoding='utf-8') as f:
-    f.write(soup.find('h1').text)
+    # f.write(soup.find('h1').text + '\n')
     f.write(soup.find(attrs={'class': 'mw-parser-output'}).text)
