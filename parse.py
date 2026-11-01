@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import json
 import re
 from pathlib import Path 
+from download import collect_courses, take_unique_adresses
 
 def parse_html_file(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
@@ -98,6 +99,9 @@ course_info = create_dict_for_course_info(soup)
 
 def create_course_info_json():
     courses_info = {}
+    main_soup = parse_html_file("wiki.html")
+    courses = collect_courses(main_soup, "https://wiki.atp-fivt.org/")
+    unique_adresses = take_unique_adresses(courses)
     for file_path in Path('courses_2025_2026').iterdir():
         soup = parse_html_file(file_path)
         course_info = create_dict_for_course_info(soup)
