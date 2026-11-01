@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import json
+import re
 
 def parse_html_file(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
@@ -40,6 +41,12 @@ json_sections = extract_sections(content)
 with open('python_course_sections.json', 'w', encoding='utf-8') as f:
     json.dump(json_sections, f, ensure_ascii=False, indent=4)
 
+def find_contacts(content):
+    pattern_mail = r'[\w\.-]+@[\w\.-]+'
+    emails = re.findall(pattern_mail, content.text)
+    cleaned_emails = list(set(email.strip('.,') for email in emails))
+    return cleaned_emails
+
 def create_dict_for_course_info(soup):
     content = soup.find(attrs={"class": "mw-parser-output"})
     course_info = {'title': None, 'assessment': None, 'has_course_plan': None, 'course_leader': None, 'course_data': None}
@@ -50,6 +57,7 @@ def create_dict_for_course_info(soup):
     course_info['assessment'] = sections.get('Форма контроля', None)
     course_info['has_course_plan'] = sections.get('План курса', None) is not None
     course_info['course_leader'] = sections.get('Руководитель курса', None)
+    course_info['course_data'] = find_contacts(content)
     return course_info
 
 course_info = create_dict_for_course_info(soup)
