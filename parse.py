@@ -139,6 +139,10 @@ def create_dict_for_course_info(soup):
         course_info['assessment'] = assessment
     course_info['has_course_plan'] = sections.get('План курса', None) is not None or sections.get('Программа курса', None) is not None
     course_info['course_leader'] = find_field(content, sections, r'Руководител[ьи]\s+курса')
+    if course_info['course_leader'] is None:
+        course_info['course_leader'] = find_field(content, sections, r'Лектор')
+    if course_info['course_leader'] is None:
+        course_info['course_leader'] = find_field(content, sections, r'Преподаватель')
     course_info['contacts'] = find_contacts(content)
     course_info['has_contacts'] = bool(course_info['contacts'])
     course_info['homework_count'] = get_number_homeworks_by_counting_matches(content)
@@ -191,8 +195,8 @@ def count_missing_values(courses_info):
 courses_info = create_course_info_json()
 count_missing_values(courses_info)
 
-# with open('courses_info.json', 'r', encoding='utf-8') as f:
-#     courses_info = json.load(f)
-#     for file_path, course_info in courses_info.items():
-#         if course_info['homework_count'] is not None:
-#             print(f"{course_info['url']}: {course_info['homework_count']} домашних заданий")
+with open('courses_info.json', 'r', encoding='utf-8') as f:
+    courses_info = json.load(f)
+    for file_path, course_info in courses_info.items():
+        if course_info['has_projects'] is not None:
+            print(f"{course_info['url']}: {course_info['has_projects']}")
