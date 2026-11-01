@@ -89,6 +89,11 @@ def create_course_info_json():
         soup = parse_html_file(file_path)
         course_info = create_dict_for_course_info(soup)
         course_info['url'] = url
+        course_info['semesters'] = []
+
+        for semester_name, semester_courses in courses.items():
+            if url in semester_courses:
+                course_info['semesters'].append(semester_name)
         courses_info[file_path] = course_info
 
     with open('courses_info.json', 'w', encoding='utf-8') as f:
