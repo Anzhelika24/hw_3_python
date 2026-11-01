@@ -73,7 +73,7 @@ def create_dict_for_course_info(soup):
     course_info = {}
     if content is None:
         course_info['sections'] = {}
-        course_info['full_text'] = soup.text
+        course_info['full_text'] = content.text.strip()
         course_info['title'] = soup.find(attrs={"class": "mw-page-title-main"})
         course_info['parse_status'] = 'unsupported format'
         return course_info
@@ -81,6 +81,9 @@ def create_dict_for_course_info(soup):
                    'homework_count': None}
     course_info['title'] = soup.find(attrs={"class": "mw-page-title-main"}).text.strip()
     sections = extract_sections(content)
+    course_info['sections'] = sections
+    course_info['full_text'] = content.text.strip()
+    course_info['parse_status'] = 'ok'
     # pattern_assessment = r'оцен'
     # course_info['assessment'] = sections.get(pattern_assessment, None)
     course_info['assessment'] = sections.get('Форма контроля', None)
