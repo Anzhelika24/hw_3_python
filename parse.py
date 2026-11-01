@@ -103,7 +103,7 @@ def find_projects(content):
         r'(?:итогов|курсов)\w*\s+проект\w*|(?:курсов|проектн)\w*\s+работ\w*|защит\w*\s+проект\w*'
     )
     for line in text.splitlines():
-        if re.search(pattern, line, flags=re.IGNORECASE) and not re.search(r'не\s+предусмотрен|\w*', line, flags=re.IGNORECASE):
+        if re.search(pattern, line, flags=re.IGNORECASE) and not re.search(r'не\s+предусмотрен\w*|не\s+будет|\bнет\b', line, flags=re.IGNORECASE):
             return True
     return False
 
