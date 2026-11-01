@@ -48,7 +48,7 @@ def find_contacts(content):
 
     telegram_links = []
     for link in content.find_all('a', attrs={'href': True}):
-        if link['href'].startswith('t.me/'):
+        if 't.me/' in link['href']:
             telegram_links.append(link['href'])
     telegram_links = list(set(telegram_links))
 
