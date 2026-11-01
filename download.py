@@ -73,22 +73,23 @@ courses = {
     "Весенний семестр 2026 года": {},
     "Осенний семестр 2026 года": {},
 }
-
-headlines = soup.find_all('span', attrs={'class': 'mw-headline'})
-for headline in headlines:
-    head_text = headline.text
-    if ('2025' in head_text or '2026' in head_text):
-        heading = headline.parent
-        for neighbour in heading.find_next_siblings():
-            if neighbour.name == 'h3':
-                break
-            if neighbour.name in ('table', 'p'):
-                links = neighbour.find_all('a', href=lambda href: href and not href.startswith('#'))
-                for link in links:
-                    if not the_course_is_empty(link):
-                        relative_url = link.attrs['href']
-                        full_url = complete_url(relative_url, domain)
-                        courses[head_text][full_url] = link.text
+def collect_courses(soup, domain):
+    headlines = soup.find_all('span', attrs={'class': 'mw-headline'})
+    for headline in headlines:
+        head_text = headline.text
+        if ('2025' in head_text or '2026' in head_text):
+            heading = headline.parent
+            for neighbour in heading.find_next_siblings():
+                if neighbour.name == 'h3':
+                    break
+                if neighbour.name in ('table', 'p'):
+                    links = neighbour.find_all('a', href=lambda href: href and not href.startswith('#'))
+                    for link in links:
+                        if not the_course_is_empty(link):
+                            relative_url = link.attrs['href']
+                            full_url = complete_url(relative_url, domain)
+                            courses[head_text][full_url] = link.text
+    return courses
 
 def take_unique_adresses(courses):
     unique_adresses = dict()
@@ -106,9 +107,10 @@ def take_unique_adresses(courses):
                 unique_adresses[course_url] += f"_{suffix}"
             else:
                 unique_adresses[course_url] = f"{course_name.strip()}_{suffix}"
-    return courses, unique_adresses
+    return unique_adresses
 
-unique_adresses = take_unique_adresses(courses)[1]
+courses = collect_courses(soup, domain)
+unique_adresses = take_unique_adresses(courses)
 download_courses_pages(unique_adresses)
         
 
