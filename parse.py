@@ -70,6 +70,12 @@ def counting_homeworks(content):
 
 def create_dict_for_course_info(soup):
     content = soup.find(attrs={"class": "mw-parser-output"})
+    if content is None:
+        course_info['sections'] = {}
+        course_info['full_text'] = soup.text
+        course_info['title'] = soup.find(attrs={"class": "mw-page-title-main"})
+        course_info['parse_status'] = 'unsupported format'
+        return course_info
     course_info = {'title': None, 'assessment': None, 'has_course_plan': None, 'course_leader': None, 'has_contacts': None, 'contacts': None, 
                    'homework_count': None}
     course_info['title'] = soup.find(attrs={"class": "mw-page-title-main"}).text.strip()
@@ -91,9 +97,9 @@ def create_course_info_json():
     for file_path in Path('courses_2025_2026').iterdir():
         soup = parse_html_file(file_path)
         course_info = create_dict_for_course_info(soup)
-        courses_info.append(course_info)
+        courses_info[str(file_path)] = course_info
 
     with open('courses_info.json', 'w', encoding='utf-8') as f:
         json.dump(courses_info, f, ensure_ascii=False, indent=4)
-        
+
 
